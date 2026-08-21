@@ -1,0 +1,74 @@
+name: Ejecutar Quantum Kernel Lab
+
+on:
+  workflow_dispatch:
+    inputs:
+      publish_results:
+        description: "Guardar resultados en public/data y volver a publicar la web"
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: quantum-kernel-lab
+  cancel-in-progress: false
+
+jobs:
+  experiment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v6
+
+      - name: Preparar Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar laboratorio cuántico
+        run: pip install -r requirements-quantum.txt
+
+      - name: Construir feature store point-in-time
+        run: python scripts/build_feature_store.py
+
+      - name: Ejecutar Shadow Challenger cuántico
+        run: python scripts/run_quantum_kernel_lab.py
+
+      - name: Validar artefactos
+        run: |
+          python scripts/validate_quantum_kernel_artifacts.py
+          pytest -q tests/test_quantum_core.py tests/test_quantum_artifacts.py tests/test_quantum_pipeline.py
+
+      - name: Conservar resultados como artefacto privado del workflow
+        uses: actions/upload-artifact@v6
+        with:
+          name: quantum-kernel-results-${{ github.run_id }}
+          path: |
+            public/data/quantum_kernel_lab.json
+            public/data/quantum_kernel_history.json
+          retention-days: 30
+
+      - name: Publicar resultados solamente con autorización explícita
+        if: ${{ inputs.publish_results == true }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/quantum_kernel_lab.json public/data/quantum_kernel_history.json
+          if git diff --cached --quiet; then
+            echo "No hay resultados matemáticamente nuevos."
+          else
+            git commit -m "quantum: archivar experimento kernel ${{ github.run_id }}"
+            git push
+          fi
+
+      - name: Volver a publicar GitHub Pages
+        if: ${{ inputs.publish_results == true }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy-pages.yml --ref main
