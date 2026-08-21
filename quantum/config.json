@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "experimentName": "quantum-kernel-shadow-v1",
+  "seed": 20260821,
+  "horizons": [5, 20, 60],
+  "featureColumns": [
+    "ret_5",
+    "ret_20",
+    "ret_60",
+    "sma_50_ratio",
+    "sma_200_ratio",
+    "rsi_14",
+    "vol_20",
+    "vol_60",
+    "drawdown_252",
+    "volume_z_20",
+    "spy_ret_20",
+    "spy_ret_60",
+    "spy_sma_200_ratio",
+    "spy_vol_60",
+    "beta_60"
+  ],
+  "pcaComponents": 4,
+  "qubits": 4,
+  "featureMap": {
+    "name": "ZZFeatureMap",
+    "repetitions": 2,
+    "entanglement": "linear",
+    "shots": null
+  },
+  "sampling": {
+    "maximumFitRows": 240,
+    "maximumCalibrationRows": 96,
+    "maximumTestRows": 120,
+    "maximumFolds": 3,
+    "firstTestYear": 2023
+  },
+  "trainableKernel": {
+    "enabledByDefault": false,
+    "maximumTrainingRows": 96,
+    "spsaIterations": 15
+  },
+  "promotionPolicy": {
+    "minimumCompletedFolds": 3,
+    "minimumHorizonsWon": 2,
+    "minimumBrierImprovement": 0.002,
+    "maximumEceDegradation": 0.01,
+    "requireBootstrapUpperBoundBelowZero": true,
+    "automaticPromotion": false
+  }
+}
