@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-21T20:21:39.918653+00:00",
+  "mode": "protocol",
+  "status": "awaiting-manual-run",
+  "experimentId": "quantum-kernel-shadow-v1",
+  "title": "Quantum Kernel Shadow Challenger",
+  "hypothesis": "Un kernel cuántico de fidelidad puede reducir el Brier score fuera de muestra frente a regresión logística y SVM-RBF sin usar información futura.",
+  "decisionTarget": "P(activo supera a SPY)",
+  "horizons": [
+    5,
+    20,
+    60
+  ],
+  "design": {
+    "validation": "expanding walk-forward por año",
+    "purge": "igual al horizonte, entre fit/calibración y desarrollo/prueba",
+    "preprocessing": "StandardScaler + PCA ajustados solo en fit; cuantiles de fit mapeados a [0, pi]",
+    "qubits": 4,
+    "featureMap": {
+      "name": "ZZFeatureMap",
+      "repetitions": 2,
+      "entanglement": "linear",
+      "shots": null
+    },
+    "sampling": {
+      "maximumFitRows": 240,
+      "maximumCalibrationRows": 96,
+      "maximumTestRows": 120,
+      "maximumFolds": 3,
+      "firstTestYear": 2023
+    },
+    "baselines": [
+      "logistic",
+      "rbfSvm"
+    ],
+    "quantumModels": [
+      "quantumZZ"
+    ]
+  },
+  "features": [
+    "ret_5",
+    "ret_20",
+    "ret_60",
+    "sma_50_ratio",
+    "sma_200_ratio",
+    "rsi_14",
+    "vol_20",
+    "vol_60",
+    "drawdown_252",
+    "volume_z_20",
+    "spy_ret_20",
+    "spy_ret_60",
+    "spy_sma_200_ratio",
+    "spy_vol_60",
+    "beta_60"
+  ],
+  "aggregateResults": [],
+  "foldResults": [],
+  "bootstrap": [],
+  "governance": {
+    "role": "shadow-challenger",
+    "promotionPolicy": {
+      "minimumCompletedFolds": 3,
+      "minimumHorizonsWon": 2,
+      "minimumBrierImprovement": 0.002,
+      "maximumEceDegradation": 0.01,
+      "requireBootstrapUpperBoundBelowZero": true,
+      "automaticPromotion": false
+    },
+    "eligibleForPromotion": false,
+    "automaticPromotion": false,
+    "decision": "No ejecutado. Ningún resultado cuántico modifica el modelo oficial."
+  },
+  "reproducibility": {
+    "seed": 20260821,
+    "configHash": "aebe2e8236402951b97eb7713bc10ef4b6ee7a4d2c0528c62a2d7956c22edce6",
+    "gitCommit": "unavailable",
+    "python": "3.12.13",
+    "backend": "FidelityStatevectorKernel exact simulation"
+  },
+  "limitations": [
+    "El simulador de estados cuánticos se ejecuta en hardware clásico.",
+    "Una mejora predictiva no demuestra ventaja computacional cuántica.",
+    "El muestreo limitado es necesario porque una matriz kernel crece cuadráticamente.",
+    "La selección de hiperparámetros posterior a observar test invalidaría el protocolo.",
+    "El experimento no ejecuta operaciones ni produce asesoría financiera."
+  ],
+  "sources": [
+    {
+      "title": "Supervised learning with quantum-enhanced feature spaces",
+      "url": "https://arxiv.org/abs/1804.11326"
+    },
+    {
+      "title": "Power of data in quantum machine learning",
+      "url": "https://arxiv.org/abs/2011.01938"
+    },
+    {
+      "title": "Qiskit Machine Learning - Quantum kernels",
+      "url": "https://qiskit-community.github.io/qiskit-machine-learning/apidocs/qiskit_machine_learning.kernels.html"
+    }
+  ]
+}

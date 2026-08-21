@@ -1,0 +1,593 @@
+{
+  "generatedAt": "2026-08-21T18:46:31+00:00",
+  "mode": "live",
+  "champion": {
+    "key": "statistical",
+    "version": "transparent-research-v4.0",
+    "metrics": {
+      "totalReturn": 10.3658938705745,
+      "cagr": 0.35503480205194693,
+      "sharpe": 0.7501293506693262,
+      "sortino": 2.1295869247952552,
+      "maxDrawdown": -0.6619399013038925,
+      "volatility": 0.5851686019678307,
+      "hitRate": 0.65625,
+      "alpha": 0.14407261242145492,
+      "beta": 2.3573419207859234,
+      "observations": 32
+    }
+  },
+  "challenger": {
+    "key": "riskControlled",
+    "version": "risk-controlled-v5.0",
+    "metrics": {
+      "totalReturn": 0.7765607117148186,
+      "cagr": 0.07447794799340879,
+      "sharpe": 0.7220064230692941,
+      "sortino": 1.2663179189055487,
+      "maxDrawdown": -0.16829597253267892,
+      "volatility": 0.10802222113100882,
+      "hitRate": 0.625,
+      "alpha": 0.010159160866546904,
+      "beta": 0.5422788528872807,
+      "observations": 32
+    },
+    "rules": {
+      "targetAnnualVolatility": 0.12,
+      "dailyCvarLimit": 0.02,
+      "maximumPositionWeight": 0.2,
+      "defensiveExposureBelowSpySma200": 0.35,
+      "cashReturnAssumption": 0.0,
+      "allocations": [
+        {
+          "date": "2020-01-02",
+          "tickers": [
+            "NVDA",
+            "CAT",
+            "GE",
+            "UPS",
+            "JPM"
+          ],
+          "grossExposure": 0.516609,
+          "cashWeight": 0.483391,
+          "maxPositionWeight": 0.103322,
+          "spyAboveSma200": true,
+          "estimatedAnnualVolatility": 0.232284,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2020-03-30",
+          "tickers": [
+            "TSLA",
+            "AAPL",
+            "JPM",
+            "GS",
+            "ADBE"
+          ],
+          "grossExposure": 0.151052,
+          "cashWeight": 0.848948,
+          "maxPositionWeight": 0.03021,
+          "spyAboveSma200": false,
+          "estimatedAnnualVolatility": 0.794431,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2020-06-24",
+          "tickers": [
+            "AMD",
+            "UNH",
+            "INTC",
+            "UBER",
+            "PFE"
+          ],
+          "grossExposure": 0.275887,
+          "cashWeight": 0.724113,
+          "maxPositionWeight": 0.055177,
+          "spyAboveSma200": true,
+          "estimatedAnnualVolatility": 0.43496,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2020-09-18",
+          "tickers": [
+            "TSLA",
+            "NVDA",
+            "AAPL",
+            "AMZN",
+            "MSFT"
+          ],
+          "grossExposure": 0.269066,
+          "cashWeight": 0.730934,
+          "maxPositionWeight": 0.053813,
+          "spyAboveSma200": true,
+          "estimatedAnnualVolatility": 0.445987,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2020-12-14",
+          "tickers": [
+            "CRM",
+            "NVDA",
+            "META",
+            "UPS",
+            "AAPL"
+          ],
+          "grossExposure": 0.309204,
+          "cashWeight": 0.690796,
+          "maxPositionWeight": 0.061841,
+          "spyAboveSma200": true,
+          "estimatedAnnualVolatility": 0.388094,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2021-01-04",
+          "tickers": [
+            "TSLA",
+            "UBER",
+            "GE",
+            "DIS",
+            "AAPL"
+          ],
+          "grossExposure": 0.260611,
+          "cashWeight": 0.739389,
+          "maxPositionWeight": 0.052122,
+          "spyAboveSma200": true,
+          "estimatedAnnualVolatility": 0.460456,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2021-03-31",
+          "tickers": [
+            "TSLA",
+            "UBER",
+            "INTC",
+            "XOM",
+            "GOOGL"
+          ],
+          "grossExposure": 0.267245,
+          "cashWeight": 0.732755,
+          "maxPositionWeight": 0.053449,
+          "spyAboveSma200": true,
+          "estimatedAnnualVolatility": 0.449026,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2021-06-25",
+          "tickers": [
+            "NVDA",
+            "GOOGL",
+            "GS",
+            "META",
+            "TSLA"
+          ],
+          "grossExposure": 0.443285,
+          "cashWeight": 0.556715,
+          "maxPositionWeight": 0.088657,
+          "spyAboveSma200": true,
+          "estimatedAnnualVolatility": 0.270706,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2021-09-21",
+          "tickers": [
+            "NVDA",
+            "GS",
+            "CAT",
+            "GOOGL",
+            "GE"
+          ],
+          "grossExposure": 0.50282,
+          "cashWeight": 0.49718,
+          "maxPositionWeight": 0.100564,
+          "spyAboveSma200": true,
+          "estimatedAnnualVolatility": 0.238654,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2021-12-15",
+          "tickers": [
+            "NVDA",
+            "AMD",
+            "TSLA",
+            "CRM",
+            "UBER"
+          ],
+          "grossExposure": 0.238911,
+          "cashWeight": 0.761089,
+          "maxPositionWeight": 0.047782,
+          "spyAboveSma200": true,
+          "estimatedAnnualVolatility": 0.502278,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2022-01-03",
+          "tickers": [
+            "NVDA",
+            "AMD",
+            "TSLA",
+            "ADBE",
+            "AAPL"
+          ],
+          "grossExposure": 0.226353,
+          "cashWeight": 0.773647,
+          "maxPositionWeight": 0.045271,
+          "spyAboveSma200": true,
+          "estimatedAnnualVolatility": 0.530145,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2022-03-30",
+          "tickers": [
+            "NVDA",
+            "AMD",
+            "UBER",
+            "CRM",
+            "ADBE"
+          ],
+          "grossExposure": 0.183238,
+          "cashWeight": 0.816762,
+          "maxPositionWeight": 0.036648,
+          "spyAboveSma200": true,
+          "estimatedAnnualVolatility": 0.654886,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2022-06-27",
+          "tickers": [
+            "META",
+            "AMD",
+            "ADBE",
+            "NVDA",
+            "NKE"
+          ],
+          "grossExposure": 0.180085,
+          "cashWeight": 0.819915,
+          "maxPositionWeight": 0.036017,
+          "spyAboveSma200": false,
+          "estimatedAnnualVolatility": 0.666352,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2022-09-21",
+          "tickers": [
+            "NFLX",
+            "ADBE",
+            "META",
+            "UBER",
+            "AMZN"
+          ],
+          "grossExposure": 0.236145,
+          "cashWeight": 0.763855,
+          "maxPositionWeight": 0.047229,
+          "spyAboveSma200": false,
+          "estimatedAnnualVolatility": 0.508162,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2022-12-15",
+          "tickers": [
+            "NFLX",
+            "NVDA",
+            "AMD",
+            "ADBE",
+            "INTC"
+          ],
+          "grossExposure": 0.197107,
+          "cashWeight": 0.802893,
+          "maxPositionWeight": 0.039421,
+          "spyAboveSma200": false,
+          "estimatedAnnualVolatility": 0.608806,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2023-01-03",
+          "tickers": [
+            "NVDA",
+            "AMD",
+            "NFLX",
+            "ADBE",
+            "INTC"
+          ],
+          "grossExposure": 0.196014,
+          "cashWeight": 0.803986,
+          "maxPositionWeight": 0.039203,
+          "spyAboveSma200": false,
+          "estimatedAnnualVolatility": 0.612201,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2023-03-30",
+          "tickers": [
+            "TSLA",
+            "NVDA",
+            "AMZN",
+            "AMD",
+            "META"
+          ],
+          "grossExposure": 0.21788,
+          "cashWeight": 0.78212,
+          "maxPositionWeight": 0.043576,
+          "spyAboveSma200": true,
+          "estimatedAnnualVolatility": 0.550761,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2023-06-27",
+          "tickers": [
+            "TSLA",
+            "NVDA",
+            "META",
+            "ADBE",
+            "ORCL"
+          ],
+          "grossExposure": 0.330418,
+          "cashWeight": 0.669582,
+          "maxPositionWeight": 0.066084,
+          "spyAboveSma200": true,
+          "estimatedAnnualVolatility": 0.363176,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2023-09-21",
+          "tickers": [
+            "AMD",
+            "TSLA",
+            "NVDA",
+            "ADBE",
+            "INTC"
+          ],
+          "grossExposure": 0.302382,
+          "cashWeight": 0.697618,
+          "maxPositionWeight": 0.060476,
+          "spyAboveSma200": true,
+          "estimatedAnnualVolatility": 0.396849,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2023-12-15",
+          "tickers": [
+            "UBER",
+            "AMD",
+            "TSLA",
+            "NVDA",
+            "BAC"
+          ],
+          "grossExposure": 0.358471,
+          "cashWeight": 0.641529,
+          "maxPositionWeight": 0.071694,
+          "spyAboveSma200": true,
+          "estimatedAnnualVolatility": 0.334755,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2024-01-02",
+          "tickers": [
+            "JPM",
+            "UBER",
+            "BAC",
+            "MCD",
+            "CRM"
+          ],
+          "grossExposure": 0.420925,
+          "cashWeight": 0.579075,
+          "maxPositionWeight": 0.084185,
+          "spyAboveSma200": true,
+          "estimatedAnnualVolatility": 0.285086,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2024-03-28",
+          "tickers": [
+            "NVDA",
+            "GE",
+            "CAT",
+            "JPM",
+            "LLY"
+          ],
+          "grossExposure": 0.55284,
+          "cashWeight": 0.44716,
+          "maxPositionWeight": 0.110568,
+          "spyAboveSma200": true,
+          "estimatedAnnualVolatility": 0.217061,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2024-06-25",
+          "tickers": [
+            "COST",
+            "NVDA",
+            "AAPL",
+            "LLY",
+            "GOOGL"
+          ],
+          "grossExposure": 0.436135,
+          "cashWeight": 0.563865,
+          "maxPositionWeight": 0.087227,
+          "spyAboveSma200": true,
+          "estimatedAnnualVolatility": 0.275144,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2024-09-19",
+          "tickers": [
+            "WMT",
+            "MCD",
+            "HD",
+            "UNH",
+            "JNJ"
+          ],
+          "grossExposure": 0.606108,
+          "cashWeight": 0.393892,
+          "maxPositionWeight": 0.121222,
+          "spyAboveSma200": true,
+          "estimatedAnnualVolatility": 0.197984,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2024-12-13",
+          "tickers": [
+            "WMT",
+            "NFLX",
+            "CRM",
+            "DIS",
+            "AAPL"
+          ],
+          "grossExposure": 0.509803,
+          "cashWeight": 0.490197,
+          "maxPositionWeight": 0.101961,
+          "spyAboveSma200": true,
+          "estimatedAnnualVolatility": 0.235385,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2025-01-02",
+          "tickers": [
+            "TSLA",
+            "INTC",
+            "AMZN",
+            "NFLX",
+            "CRM"
+          ],
+          "grossExposure": 0.337975,
+          "cashWeight": 0.662025,
+          "maxPositionWeight": 0.067595,
+          "spyAboveSma200": true,
+          "estimatedAnnualVolatility": 0.355055,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2025-04-01",
+          "tickers": [
+            "INTC",
+            "AMD",
+            "TSLA",
+            "GE",
+            "UBER"
+          ],
+          "grossExposure": 0.271054,
+          "cashWeight": 0.728946,
+          "maxPositionWeight": 0.054211,
+          "spyAboveSma200": false,
+          "estimatedAnnualVolatility": 0.442716,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2025-06-27",
+          "tickers": [
+            "AMD",
+            "ORCL",
+            "TSLA",
+            "NFLX",
+            "NVDA"
+          ],
+          "grossExposure": 0.201947,
+          "cashWeight": 0.798053,
+          "maxPositionWeight": 0.040389,
+          "spyAboveSma200": true,
+          "estimatedAnnualVolatility": 0.594214,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2025-09-23",
+          "tickers": [
+            "TSLA",
+            "GOOGL",
+            "ORCL",
+            "UNH",
+            "GS"
+          ],
+          "grossExposure": 0.259353,
+          "cashWeight": 0.740647,
+          "maxPositionWeight": 0.051871,
+          "spyAboveSma200": true,
+          "estimatedAnnualVolatility": 0.46269,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2025-12-17",
+          "tickers": [
+            "AMD",
+            "INTC",
+            "UNH",
+            "UPS",
+            "GOOGL"
+          ],
+          "grossExposure": 0.389138,
+          "cashWeight": 0.610862,
+          "maxPositionWeight": 0.077828,
+          "spyAboveSma200": true,
+          "estimatedAnnualVolatility": 0.308374,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2026-01-02",
+          "tickers": [
+            "AMD",
+            "GOOGL",
+            "INTC",
+            "TSLA",
+            "CAT"
+          ],
+          "grossExposure": 0.266526,
+          "cashWeight": 0.733474,
+          "maxPositionWeight": 0.053305,
+          "spyAboveSma200": true,
+          "estimatedAnnualVolatility": 0.450238,
+          "dailyCvarProxy": 0.01559255
+        },
+        {
+          "date": "2026-03-31",
+          "tickers": [
+            "CAT",
+            "INTC",
+            "AMD",
+            "ORCL",
+            "NVDA"
+          ],
+          "grossExposure": 0.223853,
+          "cashWeight": 0.776147,
+          "maxPositionWeight": 0.044771,
+          "spyAboveSma200": false,
+          "estimatedAnnualVolatility": 0.536066,
+          "dailyCvarProxy": 0.01559255
+        }
+      ]
+    }
+  },
+  "baseline": {
+    "key": "statistical",
+    "version": "transparent-research-v4.0",
+    "metrics": {
+      "totalReturn": 10.3658938705745,
+      "cagr": 0.35503480205194693,
+      "sharpe": 0.7501293506693262,
+      "sortino": 2.1295869247952552,
+      "maxDrawdown": -0.6619399013038925,
+      "volatility": 0.5851686019678307,
+      "hitRate": 0.65625,
+      "alpha": 0.14407261242145492,
+      "beta": 2.3573419207859234,
+      "observations": 32
+    }
+  },
+  "promotionCriteria": {
+    "minimumObservations": true,
+    "sharpeImprovement": false,
+    "drawdownImprovement": true,
+    "cagrTolerance": false
+  },
+  "qualifiedThisRun": false,
+  "qualificationStreak": 0,
+  "requiredStreak": 3,
+  "lastQualificationDate": "2026-08-21",
+  "decision": "Permanece como challenger hasta cumplir todos los criterios en tres ejecuciones diarias consecutivas.",
+  "history": [
+    {
+      "date": "2026-08-21",
+      "qualified": false,
+      "streak": 0,
+      "champion": "statistical"
+    }
+  ],
+  "guardrail": "La promoción nunca reescribe predicciones ya publicadas y requiere evidencia fuera de muestra repetida."
+}
