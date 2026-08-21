@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-21T20:21:39.918653+00:00",
-  "mode": "protocol",
+  "generatedAt": "2026-08-21T21:17:08.046474+00:00",
+  "mode": "live",
   "policy": "Cada resultado cuántico distinto se conserva por huella; ninguna medición anterior se reescribe.",
-  "currentFingerprint": "97f7949337871ceccb4ff9cc195839ce8f170fb69a5f14cad361d2cec0646432",
+  "currentFingerprint": "74ef5633fdfb460bb0da19eedd6d501445e76ca27989949f86d9887dbd12fd10",
   "snapshots": [
     {
       "fingerprint": "97f7949337871ceccb4ff9cc195839ce8f170fb69a5f14cad361d2cec0646432",
@@ -111,6 +111,1241 @@
             "url": "https://qiskit-community.github.io/qiskit-machine-learning/apidocs/qiskit_machine_learning.kernels.html"
           }
         ]
+      }
+    },
+    {
+      "fingerprint": "74ef5633fdfb460bb0da19eedd6d501445e76ca27989949f86d9887dbd12fd10",
+      "archivedAt": "2026-08-21T21:17:08.046474+00:00",
+      "experimentId": "quantum-kernel-shadow-v1-2026-08-21",
+      "result": {
+        "schemaVersion": 1,
+        "generatedAt": "2026-08-21T21:17:08.046474+00:00",
+        "mode": "live",
+        "status": "completed",
+        "experimentId": "quantum-kernel-shadow-v1-2026-08-21",
+        "title": "Quantum Kernel Shadow Challenger",
+        "hypothesis": "Un kernel cuántico de fidelidad puede reducir el Brier score fuera de muestra frente a regresión logística y SVM-RBF sin usar información futura.",
+        "decisionTarget": "P(activo supera a SPY)",
+        "horizons": [
+          5,
+          20,
+          60
+        ],
+        "design": {
+          "validation": "expanding walk-forward por año",
+          "purge": "igual al horizonte, entre fit/calibración y desarrollo/prueba",
+          "preprocessing": "StandardScaler + PCA ajustados solo en fit; cuantiles de fit mapeados a [0, pi]",
+          "qubits": 4,
+          "featureMap": {
+            "name": "ZZFeatureMap",
+            "repetitions": 2,
+            "entanglement": "linear",
+            "shots": null
+          },
+          "sampling": {
+            "maximumFitRows": 240,
+            "maximumCalibrationRows": 96,
+            "maximumTestRows": 120,
+            "maximumFolds": 3,
+            "firstTestYear": 2023
+          },
+          "baselines": [
+            "logistic",
+            "rbfSvm"
+          ],
+          "quantumModels": [
+            "quantumZZ"
+          ]
+        },
+        "features": [
+          "ret_5",
+          "ret_20",
+          "ret_60",
+          "sma_50_ratio",
+          "sma_200_ratio",
+          "rsi_14",
+          "vol_20",
+          "vol_60",
+          "drawdown_252",
+          "volume_z_20",
+          "spy_ret_20",
+          "spy_ret_60",
+          "spy_sma_200_ratio",
+          "spy_vol_60",
+          "beta_60"
+        ],
+        "aggregateResults": [
+          {
+            "horizonSessions": 5,
+            "model": "logistic",
+            "folds": 3,
+            "sampleSize": 360,
+            "brierScore": 0.25433681,
+            "logLoss": 0.70191011,
+            "rocAuc": 0.4787037,
+            "accuracy": 0.47222222,
+            "balancedAccuracy": 0.47222222,
+            "ece": 0.07245143
+          },
+          {
+            "horizonSessions": 5,
+            "model": "quantumZZ",
+            "folds": 3,
+            "sampleSize": 360,
+            "brierScore": 0.25343674,
+            "logLoss": 0.70029891,
+            "rocAuc": 0.49935185,
+            "accuracy": 0.51666667,
+            "balancedAccuracy": 0.51666667,
+            "ece": 0.04418937
+          },
+          {
+            "horizonSessions": 5,
+            "model": "rbfSvm",
+            "folds": 3,
+            "sampleSize": 360,
+            "brierScore": 0.24915306,
+            "logLoss": 0.69144783,
+            "rocAuc": 0.52268519,
+            "accuracy": 0.53333333,
+            "balancedAccuracy": 0.53333333,
+            "ece": 0.03708756
+          },
+          {
+            "horizonSessions": 20,
+            "model": "logistic",
+            "folds": 3,
+            "sampleSize": 360,
+            "brierScore": 0.24614995,
+            "logLoss": 0.6851045,
+            "rocAuc": 0.55472222,
+            "accuracy": 0.52222222,
+            "balancedAccuracy": 0.52222222,
+            "ece": 0.04581933
+          },
+          {
+            "horizonSessions": 20,
+            "model": "quantumZZ",
+            "folds": 3,
+            "sampleSize": 360,
+            "brierScore": 0.2475523,
+            "logLoss": 0.68820832,
+            "rocAuc": 0.54907407,
+            "accuracy": 0.51944444,
+            "balancedAccuracy": 0.51944444,
+            "ece": 0.02353968
+          },
+          {
+            "horizonSessions": 20,
+            "model": "rbfSvm",
+            "folds": 3,
+            "sampleSize": 360,
+            "brierScore": 0.25397198,
+            "logLoss": 0.70128101,
+            "rocAuc": 0.49370371,
+            "accuracy": 0.51944444,
+            "balancedAccuracy": 0.51944444,
+            "ece": 0.068895
+          },
+          {
+            "horizonSessions": 60,
+            "model": "logistic",
+            "folds": 3,
+            "sampleSize": 360,
+            "brierScore": 0.25095874,
+            "logLoss": 0.69513414,
+            "rocAuc": 0.50916667,
+            "accuracy": 0.5,
+            "balancedAccuracy": 0.5,
+            "ece": 0.04545624
+          },
+          {
+            "horizonSessions": 60,
+            "model": "quantumZZ",
+            "folds": 3,
+            "sampleSize": 360,
+            "brierScore": 0.249473,
+            "logLoss": 0.6920474,
+            "rocAuc": 0.52342593,
+            "accuracy": 0.50833333,
+            "balancedAccuracy": 0.50833333,
+            "ece": 0.03777139
+          },
+          {
+            "horizonSessions": 60,
+            "model": "rbfSvm",
+            "folds": 3,
+            "sampleSize": 360,
+            "brierScore": 0.25112083,
+            "logLoss": 0.69542835,
+            "rocAuc": 0.51277778,
+            "accuracy": 0.5,
+            "balancedAccuracy": 0.5,
+            "ece": 0.03105381
+          }
+        ],
+        "foldResults": [
+          {
+            "horizonSessions": 5,
+            "testYear": 2024,
+            "periods": {
+              "fit": [
+                "2017-06-07",
+                "2022-08-23"
+              ],
+              "calibration": [
+                "2022-08-31",
+                "2023-12-21"
+              ],
+              "test": [
+                "2024-01-02",
+                "2024-12-31"
+              ]
+            },
+            "purgeSessions": 5,
+            "rows": {
+              "fit": 240,
+              "calibration": 96,
+              "test": 120
+            },
+            "encoder": {
+              "components": 4,
+              "explainedVarianceRatio": [
+                0.37229825,
+                0.1897519,
+                0.09540305,
+                0.08362354
+              ],
+              "angleRange": [
+                0.0,
+                3.14159265
+              ],
+              "trainingQuantiles": {
+                "lower": [
+                  -6.31260821,
+                  -2.30594792,
+                  -2.80869481,
+                  -3.2436701
+                ],
+                "upper": [
+                  3.77735509,
+                  5.97506836,
+                  2.95877916,
+                  2.61776906
+                ]
+              }
+            },
+            "quantumCircuit": {
+              "software": "qiskit=2.2.3; qiskit-machine-learning=0.9.1",
+              "backend": "exact-statevector",
+              "qubits": 4,
+              "circuitDepth": 19,
+              "circuitSize": 34,
+              "elapsedSeconds": 1.516324
+            },
+            "models": [
+              {
+                "name": "logistic",
+                "family": "classical-baseline",
+                "metrics": {
+                  "brierScore": 0.25304064,
+                  "logLoss": 0.69915139,
+                  "rocAuc": 0.50361111,
+                  "accuracy": 0.5,
+                  "balancedAccuracy": 0.5,
+                  "ece": 0.05747575,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 0.003567
+              },
+              {
+                "name": "rbfSvm",
+                "family": "classical-baseline",
+                "metrics": {
+                  "brierScore": 0.25080699,
+                  "logLoss": 0.69476199,
+                  "rocAuc": 0.49944444,
+                  "accuracy": 0.49166667,
+                  "balancedAccuracy": 0.49166667,
+                  "ece": 0.02568679,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 0.007532
+              },
+              {
+                "name": "quantumZZ",
+                "family": "quantum-shadow",
+                "metrics": {
+                  "brierScore": 0.25660671,
+                  "logLoss": 0.70715811,
+                  "rocAuc": 0.52138889,
+                  "accuracy": 0.525,
+                  "balancedAccuracy": 0.525,
+                  "ece": 0.06612983,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 1.520763
+              }
+            ]
+          },
+          {
+            "horizonSessions": 5,
+            "testYear": 2025,
+            "periods": {
+              "fit": [
+                "2017-06-07",
+                "2023-06-13"
+              ],
+              "calibration": [
+                "2023-06-22",
+                "2024-12-23"
+              ],
+              "test": [
+                "2025-01-02",
+                "2025-12-31"
+              ]
+            },
+            "purgeSessions": 5,
+            "rows": {
+              "fit": 240,
+              "calibration": 96,
+              "test": 120
+            },
+            "encoder": {
+              "components": 4,
+              "explainedVarianceRatio": [
+                0.39398313,
+                0.19221867,
+                0.09505638,
+                0.06744972
+              ],
+              "angleRange": [
+                0.0,
+                3.14159265
+              ],
+              "trainingQuantiles": {
+                "lower": [
+                  -7.92133456,
+                  -2.55166154,
+                  -2.86433718,
+                  -1.49755315
+                ],
+                "upper": [
+                  4.63809454,
+                  5.48257174,
+                  3.10481362,
+                  3.18535151
+                ]
+              }
+            },
+            "quantumCircuit": {
+              "software": "qiskit=2.2.3; qiskit-machine-learning=0.9.1",
+              "backend": "exact-statevector",
+              "qubits": 4,
+              "circuitDepth": 19,
+              "circuitSize": 34,
+              "elapsedSeconds": 1.546397
+            },
+            "models": [
+              {
+                "name": "logistic",
+                "family": "classical-baseline",
+                "metrics": {
+                  "brierScore": 0.24649718,
+                  "logLoss": 0.68608487,
+                  "rocAuc": 0.55777778,
+                  "accuracy": 0.51666667,
+                  "balancedAccuracy": 0.51666667,
+                  "ece": 0.01629223,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 0.002109
+              },
+              {
+                "name": "rbfSvm",
+                "family": "classical-baseline",
+                "metrics": {
+                  "brierScore": 0.25059279,
+                  "logLoss": 0.69433299,
+                  "rocAuc": 0.45805556,
+                  "accuracy": 0.50833333,
+                  "balancedAccuracy": 0.50833333,
+                  "ece": 0.00330344,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 0.007465
+              },
+              {
+                "name": "quantumZZ",
+                "family": "quantum-shadow",
+                "metrics": {
+                  "brierScore": 0.24915533,
+                  "logLoss": 0.69146065,
+                  "rocAuc": 0.53777778,
+                  "accuracy": 0.54166667,
+                  "balancedAccuracy": 0.54166667,
+                  "ece": 0.02196767,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 1.550658
+              }
+            ]
+          },
+          {
+            "horizonSessions": 5,
+            "testYear": 2026,
+            "periods": {
+              "fit": [
+                "2017-06-07",
+                "2024-04-01"
+              ],
+              "calibration": [
+                "2024-04-09",
+                "2025-12-23"
+              ],
+              "test": [
+                "2026-01-02",
+                "2026-08-14"
+              ]
+            },
+            "purgeSessions": 5,
+            "rows": {
+              "fit": 240,
+              "calibration": 96,
+              "test": 120
+            },
+            "encoder": {
+              "components": 4,
+              "explainedVarianceRatio": [
+                0.36168541,
+                0.20643107,
+                0.10012912,
+                0.07873581
+              ],
+              "angleRange": [
+                0.0,
+                3.14159265
+              ],
+              "trainingQuantiles": {
+                "lower": [
+                  -7.37906997,
+                  -2.31960032,
+                  -3.12956687,
+                  -2.42177696
+                ],
+                "upper": [
+                  5.47081585,
+                  5.6519602,
+                  3.29755314,
+                  2.34121359
+                ]
+              }
+            },
+            "quantumCircuit": {
+              "software": "qiskit=2.2.3; qiskit-machine-learning=0.9.1",
+              "backend": "exact-statevector",
+              "qubits": 4,
+              "circuitDepth": 19,
+              "circuitSize": 34,
+              "elapsedSeconds": 1.592624
+            },
+            "models": [
+              {
+                "name": "logistic",
+                "family": "classical-baseline",
+                "metrics": {
+                  "brierScore": 0.2634726,
+                  "logLoss": 0.72049408,
+                  "rocAuc": 0.37472222,
+                  "accuracy": 0.4,
+                  "balancedAccuracy": 0.4,
+                  "ece": 0.14358631,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 0.002383
+              },
+              {
+                "name": "rbfSvm",
+                "family": "classical-baseline",
+                "metrics": {
+                  "brierScore": 0.24605939,
+                  "logLoss": 0.6852485,
+                  "rocAuc": 0.61055556,
+                  "accuracy": 0.6,
+                  "balancedAccuracy": 0.6,
+                  "ece": 0.08227244,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 0.007399
+              },
+              {
+                "name": "quantumZZ",
+                "family": "quantum-shadow",
+                "metrics": {
+                  "brierScore": 0.25454818,
+                  "logLoss": 0.70227798,
+                  "rocAuc": 0.43888889,
+                  "accuracy": 0.48333333,
+                  "balancedAccuracy": 0.48333333,
+                  "ece": 0.04447061,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 1.596707
+              }
+            ]
+          },
+          {
+            "horizonSessions": 20,
+            "testYear": 2024,
+            "periods": {
+              "fit": [
+                "2017-06-07",
+                "2022-07-15"
+              ],
+              "calibration": [
+                "2022-08-15",
+                "2023-11-30"
+              ],
+              "test": [
+                "2024-01-02",
+                "2024-12-31"
+              ]
+            },
+            "purgeSessions": 20,
+            "rows": {
+              "fit": 240,
+              "calibration": 96,
+              "test": 120
+            },
+            "encoder": {
+              "components": 4,
+              "explainedVarianceRatio": [
+                0.39410284,
+                0.18292261,
+                0.10313755,
+                0.07274674
+              ],
+              "angleRange": [
+                0.0,
+                3.14159265
+              ],
+              "trainingQuantiles": {
+                "lower": [
+                  -8.12856796,
+                  -2.06850083,
+                  -3.42338901,
+                  -2.44973888
+                ],
+                "upper": [
+                  4.57032827,
+                  5.56407671,
+                  2.91449338,
+                  2.66218729
+                ]
+              }
+            },
+            "quantumCircuit": {
+              "software": "qiskit=2.2.3; qiskit-machine-learning=0.9.1",
+              "backend": "exact-statevector",
+              "qubits": 4,
+              "circuitDepth": 19,
+              "circuitSize": 34,
+              "elapsedSeconds": 1.541316
+            },
+            "models": [
+              {
+                "name": "logistic",
+                "family": "classical-baseline",
+                "metrics": {
+                  "brierScore": 0.24671679,
+                  "logLoss": 0.68652768,
+                  "rocAuc": 0.56166667,
+                  "accuracy": 0.49166667,
+                  "balancedAccuracy": 0.49166667,
+                  "ece": 0.04090539,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 0.002337
+              },
+              {
+                "name": "rbfSvm",
+                "family": "classical-baseline",
+                "metrics": {
+                  "brierScore": 0.24981111,
+                  "logLoss": 0.69293342,
+                  "rocAuc": 0.52916667,
+                  "accuracy": 0.58333333,
+                  "balancedAccuracy": 0.58333333,
+                  "ece": 0.07170702,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 0.007365
+              },
+              {
+                "name": "quantumZZ",
+                "family": "quantum-shadow",
+                "metrics": {
+                  "brierScore": 0.24891153,
+                  "logLoss": 0.69094357,
+                  "rocAuc": 0.53222222,
+                  "accuracy": 0.50833333,
+                  "balancedAccuracy": 0.50833333,
+                  "ece": 0.02225259,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 1.545459
+              }
+            ]
+          },
+          {
+            "horizonSessions": 20,
+            "testYear": 2025,
+            "periods": {
+              "fit": [
+                "2017-06-07",
+                "2023-05-04"
+              ],
+              "calibration": [
+                "2023-06-05",
+                "2024-12-02"
+              ],
+              "test": [
+                "2025-01-02",
+                "2025-12-31"
+              ]
+            },
+            "purgeSessions": 20,
+            "rows": {
+              "fit": 240,
+              "calibration": 96,
+              "test": 120
+            },
+            "encoder": {
+              "components": 4,
+              "explainedVarianceRatio": [
+                0.34945604,
+                0.20985639,
+                0.0926021,
+                0.07942011
+              ],
+              "angleRange": [
+                0.0,
+                3.14159265
+              ],
+              "trainingQuantiles": {
+                "lower": [
+                  -6.20173682,
+                  -2.52206048,
+                  -3.07471317,
+                  -2.90954362
+                ],
+                "upper": [
+                  5.59689328,
+                  5.57081838,
+                  2.46376069,
+                  2.67875588
+                ]
+              }
+            },
+            "quantumCircuit": {
+              "software": "qiskit=2.2.3; qiskit-machine-learning=0.9.1",
+              "backend": "exact-statevector",
+              "qubits": 4,
+              "circuitDepth": 19,
+              "circuitSize": 34,
+              "elapsedSeconds": 1.54386
+            },
+            "models": [
+              {
+                "name": "logistic",
+                "family": "classical-baseline",
+                "metrics": {
+                  "brierScore": 0.24790253,
+                  "logLoss": 0.68892364,
+                  "rocAuc": 0.53833333,
+                  "accuracy": 0.55833333,
+                  "balancedAccuracy": 0.55833333,
+                  "ece": 0.03759268,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 0.00219
+              },
+              {
+                "name": "rbfSvm",
+                "family": "classical-baseline",
+                "metrics": {
+                  "brierScore": 0.25992241,
+                  "logLoss": 0.71329244,
+                  "rocAuc": 0.46027778,
+                  "accuracy": 0.48333333,
+                  "balancedAccuracy": 0.48333333,
+                  "ece": 0.08455809,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 0.007372
+              },
+              {
+                "name": "quantumZZ",
+                "family": "quantum-shadow",
+                "metrics": {
+                  "brierScore": 0.24374395,
+                  "logLoss": 0.68053523,
+                  "rocAuc": 0.60638889,
+                  "accuracy": 0.55833333,
+                  "balancedAccuracy": 0.55833333,
+                  "ece": 0.01911062,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 1.547811
+              }
+            ]
+          },
+          {
+            "horizonSessions": 20,
+            "testYear": 2026,
+            "periods": {
+              "fit": [
+                "2017-06-07",
+                "2024-02-21"
+              ],
+              "calibration": [
+                "2024-03-21",
+                "2025-12-02"
+              ],
+              "test": [
+                "2026-01-02",
+                "2026-07-24"
+              ]
+            },
+            "purgeSessions": 20,
+            "rows": {
+              "fit": 240,
+              "calibration": 96,
+              "test": 120
+            },
+            "encoder": {
+              "components": 4,
+              "explainedVarianceRatio": [
+                0.37171918,
+                0.19213126,
+                0.09457748,
+                0.07537907
+              ],
+              "angleRange": [
+                0.0,
+                3.14159265
+              ],
+              "trainingQuantiles": {
+                "lower": [
+                  -7.57727921,
+                  -2.40692953,
+                  -3.33106607,
+                  -3.1577699
+                ],
+                "upper": [
+                  3.7165662,
+                  4.80581815,
+                  3.1001034,
+                  2.2601912
+                ]
+              }
+            },
+            "quantumCircuit": {
+              "software": "qiskit=2.2.3; qiskit-machine-learning=0.9.1",
+              "backend": "exact-statevector",
+              "qubits": 4,
+              "circuitDepth": 19,
+              "circuitSize": 34,
+              "elapsedSeconds": 1.5395
+            },
+            "models": [
+              {
+                "name": "logistic",
+                "family": "classical-baseline",
+                "metrics": {
+                  "brierScore": 0.24383053,
+                  "logLoss": 0.67986219,
+                  "rocAuc": 0.56416667,
+                  "accuracy": 0.51666667,
+                  "balancedAccuracy": 0.51666667,
+                  "ece": 0.05895992,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 0.002388
+              },
+              {
+                "name": "rbfSvm",
+                "family": "classical-baseline",
+                "metrics": {
+                  "brierScore": 0.25218243,
+                  "logLoss": 0.69761716,
+                  "rocAuc": 0.49166667,
+                  "accuracy": 0.49166667,
+                  "balancedAccuracy": 0.49166667,
+                  "ece": 0.0504199,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 0.007394
+              },
+              {
+                "name": "quantumZZ",
+                "family": "quantum-shadow",
+                "metrics": {
+                  "brierScore": 0.25000142,
+                  "logLoss": 0.69314615,
+                  "rocAuc": 0.50861111,
+                  "accuracy": 0.49166667,
+                  "balancedAccuracy": 0.49166667,
+                  "ece": 0.02925582,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 1.543638
+              }
+            ]
+          },
+          {
+            "horizonSessions": 60,
+            "testYear": 2024,
+            "periods": {
+              "fit": [
+                "2017-06-07",
+                "2022-03-31"
+              ],
+              "calibration": [
+                "2022-06-29",
+                "2023-10-04"
+              ],
+              "test": [
+                "2024-01-02",
+                "2024-12-31"
+              ]
+            },
+            "purgeSessions": 60,
+            "rows": {
+              "fit": 240,
+              "calibration": 96,
+              "test": 120
+            },
+            "encoder": {
+              "components": 4,
+              "explainedVarianceRatio": [
+                0.38812154,
+                0.20128305,
+                0.090831,
+                0.08026327
+              ],
+              "angleRange": [
+                0.0,
+                3.14159265
+              ],
+              "trainingQuantiles": {
+                "lower": [
+                  -8.04348388,
+                  -2.12246196,
+                  -3.63082526,
+                  -2.47618848
+                ],
+                "upper": [
+                  5.63664523,
+                  5.72473553,
+                  2.730555,
+                  2.73329195
+                ]
+              }
+            },
+            "quantumCircuit": {
+              "software": "qiskit=2.2.3; qiskit-machine-learning=0.9.1",
+              "backend": "exact-statevector",
+              "qubits": 4,
+              "circuitDepth": 19,
+              "circuitSize": 34,
+              "elapsedSeconds": 1.541178
+            },
+            "models": [
+              {
+                "name": "logistic",
+                "family": "classical-baseline",
+                "metrics": {
+                  "brierScore": 0.25799165,
+                  "logLoss": 0.7094202,
+                  "rocAuc": 0.44222222,
+                  "accuracy": 0.46666667,
+                  "balancedAccuracy": 0.46666667,
+                  "ece": 0.07329131,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 0.002388
+              },
+              {
+                "name": "rbfSvm",
+                "family": "classical-baseline",
+                "metrics": {
+                  "brierScore": 0.25430584,
+                  "logLoss": 0.70187781,
+                  "rocAuc": 0.47861111,
+                  "accuracy": 0.46666667,
+                  "balancedAccuracy": 0.46666667,
+                  "ece": 0.07155779,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 0.0072
+              },
+              {
+                "name": "quantumZZ",
+                "family": "quantum-shadow",
+                "metrics": {
+                  "brierScore": 0.24996593,
+                  "logLoss": 0.69307904,
+                  "rocAuc": 0.53388889,
+                  "accuracy": 0.525,
+                  "balancedAccuracy": 0.525,
+                  "ece": 0.02456025,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 1.545126
+              }
+            ]
+          },
+          {
+            "horizonSessions": 60,
+            "testYear": 2025,
+            "periods": {
+              "fit": [
+                "2017-06-07",
+                "2023-01-20"
+              ],
+              "calibration": [
+                "2023-04-19",
+                "2024-10-04"
+              ],
+              "test": [
+                "2025-01-02",
+                "2025-12-31"
+              ]
+            },
+            "purgeSessions": 60,
+            "rows": {
+              "fit": 240,
+              "calibration": 96,
+              "test": 120
+            },
+            "encoder": {
+              "components": 4,
+              "explainedVarianceRatio": [
+                0.38406122,
+                0.18202436,
+                0.10388705,
+                0.07308609
+              ],
+              "angleRange": [
+                0.0,
+                3.14159265
+              ],
+              "trainingQuantiles": {
+                "lower": [
+                  -7.29783279,
+                  -2.57190947,
+                  -2.3814968,
+                  -2.54162332
+                ],
+                "upper": [
+                  4.12458385,
+                  5.64890853,
+                  3.36731174,
+                  2.49940461
+                ]
+              }
+            },
+            "quantumCircuit": {
+              "software": "qiskit=2.2.3; qiskit-machine-learning=0.9.1",
+              "backend": "exact-statevector",
+              "qubits": 4,
+              "circuitDepth": 19,
+              "circuitSize": 34,
+              "elapsedSeconds": 1.542451
+            },
+            "models": [
+              {
+                "name": "logistic",
+                "family": "classical-baseline",
+                "metrics": {
+                  "brierScore": 0.25023278,
+                  "logLoss": 0.69361058,
+                  "rocAuc": 0.50027778,
+                  "accuracy": 0.48333333,
+                  "balancedAccuracy": 0.48333333,
+                  "ece": 0.03797328,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 0.002429
+              },
+              {
+                "name": "rbfSvm",
+                "family": "classical-baseline",
+                "metrics": {
+                  "brierScore": 0.24974761,
+                  "logLoss": 0.69264232,
+                  "rocAuc": 0.505,
+                  "accuracy": 0.525,
+                  "balancedAccuracy": 0.525,
+                  "ece": 0.01953893,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 0.007332
+              },
+              {
+                "name": "quantumZZ",
+                "family": "quantum-shadow",
+                "metrics": {
+                  "brierScore": 0.24692716,
+                  "logLoss": 0.68685282,
+                  "rocAuc": 0.54972222,
+                  "accuracy": 0.49166667,
+                  "balancedAccuracy": 0.49166667,
+                  "ece": 0.07270436,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 1.546802
+              }
+            ]
+          },
+          {
+            "horizonSessions": 60,
+            "testYear": 2026,
+            "periods": {
+              "fit": [
+                "2017-06-07",
+                "2023-11-06"
+              ],
+              "calibration": [
+                "2024-02-05",
+                "2025-10-06"
+              ],
+              "test": [
+                "2026-01-02",
+                "2026-05-27"
+              ]
+            },
+            "purgeSessions": 60,
+            "rows": {
+              "fit": 240,
+              "calibration": 96,
+              "test": 120
+            },
+            "encoder": {
+              "components": 4,
+              "explainedVarianceRatio": [
+                0.40164558,
+                0.17810119,
+                0.09335976,
+                0.08039928
+              ],
+              "angleRange": [
+                0.0,
+                3.14159265
+              ],
+              "trainingQuantiles": {
+                "lower": [
+                  -8.45940846,
+                  -2.18897994,
+                  -2.83188146,
+                  -2.50569416
+                ],
+                "upper": [
+                  5.82721144,
+                  5.48391058,
+                  3.03483307,
+                  2.84813099
+                ]
+              }
+            },
+            "quantumCircuit": {
+              "software": "qiskit=2.2.3; qiskit-machine-learning=0.9.1",
+              "backend": "exact-statevector",
+              "qubits": 4,
+              "circuitDepth": 19,
+              "circuitSize": 34,
+              "elapsedSeconds": 1.548593
+            },
+            "models": [
+              {
+                "name": "logistic",
+                "family": "classical-baseline",
+                "metrics": {
+                  "brierScore": 0.24465179,
+                  "logLoss": 0.68237165,
+                  "rocAuc": 0.585,
+                  "accuracy": 0.55,
+                  "balancedAccuracy": 0.55,
+                  "ece": 0.02510412,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 0.002288
+              },
+              {
+                "name": "rbfSvm",
+                "family": "classical-baseline",
+                "metrics": {
+                  "brierScore": 0.24930903,
+                  "logLoss": 0.69176491,
+                  "rocAuc": 0.55472222,
+                  "accuracy": 0.50833333,
+                  "balancedAccuracy": 0.50833333,
+                  "ece": 0.00206472,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 0.007505
+              },
+              {
+                "name": "quantumZZ",
+                "family": "quantum-shadow",
+                "metrics": {
+                  "brierScore": 0.2515259,
+                  "logLoss": 0.69621035,
+                  "rocAuc": 0.48666667,
+                  "accuracy": 0.50833333,
+                  "balancedAccuracy": 0.50833333,
+                  "ece": 0.01604957,
+                  "sampleSize": 120,
+                  "positiveRate": 0.5
+                },
+                "runtimeSeconds": 1.552768
+              }
+            ]
+          }
+        ],
+        "bootstrap": [
+          {
+            "comparison": "quantumZZ minus rbfSvm",
+            "iterations": 1000,
+            "deltaMean": 0.00377933,
+            "ciLow": -0.00182872,
+            "ciHigh": 0.00949801,
+            "probabilityQuantumBetter": 0.1,
+            "horizonSessions": 5,
+            "bestClassical": "rbfSvm"
+          },
+          {
+            "comparison": "quantumZZ minus logistic",
+            "iterations": 1000,
+            "deltaMean": 0.00066696,
+            "ciLow": -0.00645048,
+            "ciHigh": 0.00827414,
+            "probabilityQuantumBetter": 0.454,
+            "horizonSessions": 20,
+            "bestClassical": "logistic"
+          },
+          {
+            "comparison": "quantumZZ minus logistic",
+            "iterations": 1000,
+            "deltaMean": -0.00328063,
+            "ciLow": -0.00999287,
+            "ciHigh": 0.00268135,
+            "probabilityQuantumBetter": 0.863,
+            "horizonSessions": 60,
+            "bestClassical": "logistic"
+          }
+        ],
+        "governance": {
+          "role": "shadow-challenger",
+          "promotionPolicy": {
+            "minimumCompletedFolds": 3,
+            "minimumHorizonsWon": 2,
+            "minimumBrierImprovement": 0.002,
+            "maximumEceDegradation": 0.01,
+            "requireBootstrapUpperBoundBelowZero": true,
+            "automaticPromotion": false
+          },
+          "checks": [
+            {
+              "horizonSessions": 5,
+              "passed": false,
+              "bestClassical": "rbfSvm",
+              "brierImprovement": -0.00428368,
+              "enoughFolds": true,
+              "eceGate": true,
+              "bootstrapGate": false
+            },
+            {
+              "horizonSessions": 20,
+              "passed": false,
+              "bestClassical": "logistic",
+              "brierImprovement": -0.00140235,
+              "enoughFolds": true,
+              "eceGate": true,
+              "bootstrapGate": false
+            },
+            {
+              "horizonSessions": 60,
+              "passed": false,
+              "bestClassical": "logistic",
+              "brierImprovement": 0.00148574,
+              "enoughFolds": true,
+              "eceGate": true,
+              "bootstrapGate": false
+            }
+          ],
+          "horizonsPassed": 0,
+          "eligibleForPromotion": false,
+          "automaticPromotion": false,
+          "decision": "Permanece en shadow: no supera todas las puertas publicadas."
+        },
+        "reproducibility": {
+          "seed": 20260821,
+          "configHash": "aebe2e8236402951b97eb7713bc10ef4b6ee7a4d2c0528c62a2d7956c22edce6",
+          "gitCommit": "d3dcf54dfb25624ba1491d66da12b621af8b4d26",
+          "python": "3.12.14",
+          "backend": "FidelityStatevectorKernel exact simulation",
+          "dataHash": "ee51ba066d0f39ac76a28a27b4eb0ed62fe2cf6b2e3f2dfccfce30d1af1d9ce4"
+        },
+        "limitations": [
+          "El simulador de estados cuánticos se ejecuta en hardware clásico.",
+          "Una mejora predictiva no demuestra ventaja computacional cuántica.",
+          "El muestreo limitado es necesario porque una matriz kernel crece cuadráticamente.",
+          "La selección de hiperparámetros posterior a observar test invalidaría el protocolo.",
+          "El experimento no ejecuta operaciones ni produce asesoría financiera."
+        ],
+        "sources": [
+          {
+            "title": "Supervised learning with quantum-enhanced feature spaces",
+            "url": "https://arxiv.org/abs/1804.11326"
+          },
+          {
+            "title": "Power of data in quantum machine learning",
+            "url": "https://arxiv.org/abs/2011.01938"
+          },
+          {
+            "title": "Qiskit Machine Learning - Quantum kernels",
+            "url": "https://qiskit-community.github.io/qiskit-machine-learning/apidocs/qiskit_machine_learning.kernels.html"
+          }
+        ],
+        "fingerprint": "74ef5633fdfb460bb0da19eedd6d501445e76ca27989949f86d9887dbd12fd10"
       }
     }
   ]
