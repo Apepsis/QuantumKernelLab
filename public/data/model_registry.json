@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-01T01:21:23+00:00",
+  "generatedAt": "2026-09-02T00:21:03+00:00",
   "mode": "live",
   "champion": {
     "key": "statistical",
     "version": "transparent-research-v4.0",
     "metrics": {
-      "totalReturn": 9.20382305461479,
-      "cagr": 0.3368890460356111,
-      "sharpe": 0.8507491641304666,
-      "sortino": 1.8186528765081607,
-      "maxDrawdown": -0.6619399575437312,
-      "volatility": 0.46035252557679296,
+      "totalReturn": 9.147548827361359,
+      "cagr": 0.3359651944079667,
+      "sharpe": 0.8492523595414556,
+      "sortino": 1.814868503742573,
+      "maxDrawdown": -0.6619399029930443,
+      "volatility": 0.4602042532652351,
       "hitRate": 0.6875,
-      "alpha": 0.13107657013677887,
-      "beta": 2.0830459299770583,
+      "alpha": 0.13047517079203452,
+      "beta": 2.081338247960638,
       "observations": 32
     }
   },
@@ -21,15 +21,15 @@
     "key": "riskControlled",
     "version": "risk-controlled-v5.0",
     "metrics": {
-      "totalReturn": 0.6791722962228708,
-      "cagr": 0.06693240937562117,
-      "sharpe": 0.6774630509808489,
-      "sortino": 1.1459304896095213,
-      "maxDrawdown": -0.1682960061237524,
-      "volatility": 0.10398226442771367,
+      "totalReturn": 0.7085953216922025,
+      "cagr": 0.0692515823091786,
+      "sharpe": 0.6996848769172411,
+      "sortino": 1.1816101117414117,
+      "maxDrawdown": -0.16829598039274696,
+      "volatility": 0.10381465738979129,
       "hitRate": 0.65625,
-      "alpha": 0.005577262913777928,
-      "beta": 0.5185621849398597,
+      "alpha": 0.0075923983279052865,
+      "beta": 0.5199872370363715,
       "observations": 32
     },
     "rules": {
@@ -59,8 +59,8 @@
           "date": "2020-03-30",
           "tickers": [
             "JPM",
-            "AAPL",
             "TSLA",
+            "AAPL",
             "GS",
             "BAC"
           ],
@@ -84,7 +84,7 @@
           "cashWeight": 0.724112,
           "maxPositionWeight": 0.055178,
           "spyAboveSma200": true,
-          "estimatedAnnualVolatility": 0.43496,
+          "estimatedAnnualVolatility": 0.434959,
           "dailyCvarProxy": 0.01559255
         },
         {
@@ -172,15 +172,15 @@
           "tickers": [
             "NVDA",
             "GS",
-            "CAT",
             "GOOGL",
+            "CAT",
             "GE"
           ],
-          "grossExposure": 0.502819,
-          "cashWeight": 0.497181,
+          "grossExposure": 0.50282,
+          "cashWeight": 0.49718,
           "maxPositionWeight": 0.100564,
           "spyAboveSma200": true,
-          "estimatedAnnualVolatility": 0.238655,
+          "estimatedAnnualVolatility": 0.238654,
           "dailyCvarProxy": 0.01559255
         },
         {
@@ -244,7 +244,7 @@
           "cashWeight": 0.819915,
           "maxPositionWeight": 0.036017,
           "spyAboveSma200": false,
-          "estimatedAnnualVolatility": 0.666352,
+          "estimatedAnnualVolatility": 0.666353,
           "dailyCvarProxy": 0.01559255
         },
         {
@@ -276,7 +276,7 @@
           "cashWeight": 0.802893,
           "maxPositionWeight": 0.039421,
           "spyAboveSma200": false,
-          "estimatedAnnualVolatility": 0.608805,
+          "estimatedAnnualVolatility": 0.608806,
           "dailyCvarProxy": 0.01559255
         },
         {
@@ -384,8 +384,8 @@
             "JPM",
             "LLY"
           ],
-          "grossExposure": 0.552841,
-          "cashWeight": 0.447159,
+          "grossExposure": 0.55284,
+          "cashWeight": 0.44716,
           "maxPositionWeight": 0.110568,
           "spyAboveSma200": true,
           "estimatedAnnualVolatility": 0.217061,
@@ -398,7 +398,7 @@
             "LLY",
             "AAPL",
             "GOOGL",
-            "MSFT"
+            "WMT"
           ],
           "grossExposure": 0.471063,
           "cashWeight": 0.528937,
@@ -416,8 +416,8 @@
             "JNJ",
             "UNH"
           ],
-          "grossExposure": 0.606108,
-          "cashWeight": 0.393892,
+          "grossExposure": 0.606109,
+          "cashWeight": 0.393891,
           "maxPositionWeight": 0.121222,
           "spyAboveSma200": true,
           "estimatedAnnualVolatility": 0.197984,
@@ -558,15 +558,15 @@
     "key": "statistical",
     "version": "transparent-research-v4.0",
     "metrics": {
-      "totalReturn": 9.20382305461479,
-      "cagr": 0.3368890460356111,
-      "sharpe": 0.8507491641304666,
-      "sortino": 1.8186528765081607,
-      "maxDrawdown": -0.6619399575437312,
-      "volatility": 0.46035252557679296,
+      "totalReturn": 9.147548827361359,
+      "cagr": 0.3359651944079667,
+      "sharpe": 0.8492523595414556,
+      "sortino": 1.814868503742573,
+      "maxDrawdown": -0.6619399029930443,
+      "volatility": 0.4602042532652351,
       "hitRate": 0.6875,
-      "alpha": 0.13107657013677887,
-      "beta": 2.0830459299770583,
+      "alpha": 0.13047517079203452,
+      "beta": 2.081338247960638,
       "observations": 32
     }
   },
@@ -579,7 +579,7 @@
   "qualifiedThisRun": false,
   "qualificationStreak": 0,
   "requiredStreak": 3,
-  "lastQualificationDate": "2026-09-01",
+  "lastQualificationDate": "2026-09-02",
   "decision": "Permanece como challenger hasta cumplir todos los criterios en tres ejecuciones diarias consecutivas.",
   "history": [
     {
@@ -644,6 +644,12 @@
     },
     {
       "date": "2026-09-01",
+      "qualified": false,
+      "streak": 0,
+      "champion": "statistical"
+    },
+    {
+      "date": "2026-09-02",
       "qualified": false,
       "streak": 0,
       "champion": "statistical"
