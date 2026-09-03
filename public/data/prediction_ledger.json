@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T00:20:46.562414+00:00",
+  "generatedAt": "2026-09-03T00:22:37.772487+00:00",
   "mode": "live",
   "policy": "Los campos de publicación son inmutables; únicamente se completan resultado y evaluación al madurar el horizonte.",
   "immutableFields": [
@@ -14,7 +14,7 @@
     "dataHash"
   ],
   "recordCount": 768,
-  "evaluatedCount": 79,
+  "evaluatedCount": 96,
   "records": [
     {
       "id": "2026-08-21:AAPL:5:transparent-research-v5.0",
@@ -18621,7 +18621,7 @@
       "estimatedMaturityDate": "2026-09-01",
       "modelVersion": "transparent-research-v5.0",
       "dataHash": "sha256:4f63a7d98330e4e680cb3ce32c9771e9895f02b3e283d1c099f1fd516a39a1da",
-      "status": "pending",
+      "status": "evaluated",
       "changeFromPrevious": 0.004791,
       "decisionThreshold": 0.5,
       "contributions": [
@@ -18697,7 +18697,14 @@
           "formula": "z(feature) × coeficiente × pendiente_calibración",
           "source": "Precios ajustados point-in-time; feature_store.json"
         }
-      ]
+      ],
+      "evaluatedOn": "2026-09-01",
+      "finalPrice": 286.079987,
+      "assetReturn": 0.04439243,
+      "spyReturn": -0.00539221,
+      "excessReturn": 0.04978463,
+      "outcome": 1,
+      "correct": false
     },
     {
       "id": "2026-08-25:ADBE:20:transparent-research-v5.0",
@@ -19472,7 +19479,7 @@
       "estimatedMaturityDate": "2026-09-01",
       "modelVersion": "transparent-research-v5.0",
       "dataHash": "sha256:4f63a7d98330e4e680cb3ce32c9771e9895f02b3e283d1c099f1fd516a39a1da",
-      "status": "pending",
+      "status": "evaluated",
       "changeFromPrevious": 0.000931,
       "decisionThreshold": 0.5,
       "contributions": [
@@ -19548,7 +19555,14 @@
           "formula": "z(feature) × coeficiente × pendiente_calibración",
           "source": "Precios ajustados point-in-time; feature_store.json"
         }
-      ]
+      ],
+      "evaluatedOn": "2026-09-01",
+      "finalPrice": 61.990002,
+      "assetReturn": -0.00704786,
+      "spyReturn": -0.00539221,
+      "excessReturn": -0.00165566,
+      "outcome": 0,
+      "correct": false
     },
     {
       "id": "2026-08-25:BAC:20:transparent-research-v5.0",
@@ -19751,7 +19765,7 @@
       "estimatedMaturityDate": "2026-09-01",
       "modelVersion": "transparent-research-v5.0",
       "dataHash": "sha256:4f63a7d98330e4e680cb3ce32c9771e9895f02b3e283d1c099f1fd516a39a1da",
-      "status": "pending",
+      "status": "evaluated",
       "changeFromPrevious": -0.004067,
       "decisionThreshold": 0.5,
       "contributions": [
@@ -19827,7 +19841,14 @@
           "formula": "z(feature) × coeficiente × pendiente_calibración",
           "source": "Precios ajustados point-in-time; feature_store.json"
         }
-      ]
+      ],
+      "evaluatedOn": "2026-09-01",
+      "finalPrice": 779.159973,
+      "assetReturn": -0.0396036,
+      "spyReturn": -0.00539221,
+      "excessReturn": -0.0342114,
+      "outcome": 0,
+      "correct": false
     },
     {
       "id": "2026-08-25:CAT:20:transparent-research-v5.0",
@@ -20030,7 +20051,7 @@
       "estimatedMaturityDate": "2026-09-01",
       "modelVersion": "transparent-research-v5.0",
       "dataHash": "sha256:4f63a7d98330e4e680cb3ce32c9771e9895f02b3e283d1c099f1fd516a39a1da",
-      "status": "pending",
+      "status": "evaluated",
       "changeFromPrevious": 0.002514,
       "decisionThreshold": 0.5,
       "contributions": [
@@ -20106,7 +20127,14 @@
           "formula": "z(feature) × coeficiente × pendiente_calibración",
           "source": "Precios ajustados point-in-time; feature_store.json"
         }
-      ]
+      ],
+      "evaluatedOn": "2026-09-01",
+      "finalPrice": 939.960022,
+      "assetReturn": -0.02088519,
+      "spyReturn": -0.00539221,
+      "excessReturn": -0.01549298,
+      "outcome": 0,
+      "correct": true
     },
     {
       "id": "2026-08-25:COST:20:transparent-research-v5.0",
@@ -20881,7 +20909,7 @@
       "estimatedMaturityDate": "2026-09-01",
       "modelVersion": "transparent-research-v5.0",
       "dataHash": "sha256:4f63a7d98330e4e680cb3ce32c9771e9895f02b3e283d1c099f1fd516a39a1da",
-      "status": "pending",
+      "status": "evaluated",
       "changeFromPrevious": 0.000926,
       "decisionThreshold": 0.5,
       "contributions": [
@@ -20957,7 +20985,14 @@
           "formula": "z(feature) × coeficiente × pendiente_calibración",
           "source": "Precios ajustados point-in-time; feature_store.json"
         }
-      ]
+      ],
+      "evaluatedOn": "2026-09-01",
+      "finalPrice": 106.220001,
+      "assetReturn": -0.04521347,
+      "spyReturn": -0.00539221,
+      "excessReturn": -0.03982127,
+      "outcome": 0,
+      "correct": true
     },
     {
       "id": "2026-08-25:DIS:20:transparent-research-v5.0",
@@ -21160,7 +21195,7 @@
       "estimatedMaturityDate": "2026-09-01",
       "modelVersion": "transparent-research-v5.0",
       "dataHash": "sha256:4f63a7d98330e4e680cb3ce32c9771e9895f02b3e283d1c099f1fd516a39a1da",
-      "status": "pending",
+      "status": "evaluated",
       "changeFromPrevious": 0.000178,
       "decisionThreshold": 0.5,
       "contributions": [
@@ -21236,7 +21271,14 @@
           "formula": "z(feature) × coeficiente × pendiente_calibración",
           "source": "Precios ajustados point-in-time; feature_store.json"
         }
-      ]
+      ],
+      "evaluatedOn": "2026-09-01",
+      "finalPrice": 331.089996,
+      "assetReturn": -0.05278369,
+      "spyReturn": -0.00539221,
+      "excessReturn": -0.04739149,
+      "outcome": 0,
+      "correct": false
     },
     {
       "id": "2026-08-25:GE:20:transparent-research-v5.0",
@@ -21725,7 +21767,7 @@
       "estimatedMaturityDate": "2026-09-01",
       "modelVersion": "transparent-research-v5.0",
       "dataHash": "sha256:4f63a7d98330e4e680cb3ce32c9771e9895f02b3e283d1c099f1fd516a39a1da",
-      "status": "pending",
+      "status": "evaluated",
       "changeFromPrevious": -0.002719,
       "decisionThreshold": 0.5,
       "contributions": [
@@ -21801,7 +21843,14 @@
           "formula": "z(feature) × coeficiente × pendiente_calibración",
           "source": "Precios ajustados point-in-time; feature_store.json"
         }
-      ]
+      ],
+      "evaluatedOn": "2026-09-01",
+      "finalPrice": 1002.559998,
+      "assetReturn": -0.05318828,
+      "spyReturn": -0.00539221,
+      "excessReturn": -0.04779608,
+      "outcome": 0,
+      "correct": false
     },
     {
       "id": "2026-08-25:GS:20:transparent-research-v5.0",
@@ -22004,7 +22053,7 @@
       "estimatedMaturityDate": "2026-09-01",
       "modelVersion": "transparent-research-v5.0",
       "dataHash": "sha256:4f63a7d98330e4e680cb3ce32c9771e9895f02b3e283d1c099f1fd516a39a1da",
-      "status": "pending",
+      "status": "evaluated",
       "changeFromPrevious": 0.000392,
       "decisionThreshold": 0.5,
       "contributions": [
@@ -22080,7 +22129,14 @@
           "formula": "z(feature) × coeficiente × pendiente_calibración",
           "source": "Precios ajustados point-in-time; feature_store.json"
         }
-      ]
+      ],
+      "evaluatedOn": "2026-09-01",
+      "finalPrice": 319.769989,
+      "assetReturn": -0.05359896,
+      "spyReturn": -0.00539221,
+      "excessReturn": -0.04820675,
+      "outcome": 0,
+      "correct": true
     },
     {
       "id": "2026-08-25:HD:20:transparent-research-v5.0",
@@ -22569,7 +22625,7 @@
       "estimatedMaturityDate": "2026-09-01",
       "modelVersion": "transparent-research-v5.0",
       "dataHash": "sha256:4f63a7d98330e4e680cb3ce32c9771e9895f02b3e283d1c099f1fd516a39a1da",
-      "status": "pending",
+      "status": "evaluated",
       "changeFromPrevious": 0.004719,
       "decisionThreshold": 0.5,
       "contributions": [
@@ -22645,7 +22701,14 @@
           "formula": "z(feature) × coeficiente × pendiente_calibración",
           "source": "Precios ajustados point-in-time; feature_store.json"
         }
-      ]
+      ],
+      "evaluatedOn": "2026-09-01",
+      "finalPrice": 271.190002,
+      "assetReturn": -0.00713924,
+      "spyReturn": -0.00539221,
+      "excessReturn": -0.00174704,
+      "outcome": 0,
+      "correct": true
     },
     {
       "id": "2026-08-25:JNJ:20:transparent-research-v5.0",
@@ -22848,7 +22911,7 @@
       "estimatedMaturityDate": "2026-09-01",
       "modelVersion": "transparent-research-v5.0",
       "dataHash": "sha256:4f63a7d98330e4e680cb3ce32c9771e9895f02b3e283d1c099f1fd516a39a1da",
-      "status": "pending",
+      "status": "evaluated",
       "changeFromPrevious": 0.000741,
       "decisionThreshold": 0.5,
       "contributions": [
@@ -22924,7 +22987,14 @@
           "formula": "z(feature) × coeficiente × pendiente_calibración",
           "source": "Precios ajustados point-in-time; feature_store.json"
         }
-      ]
+      ],
+      "evaluatedOn": "2026-09-01",
+      "finalPrice": 354.950012,
+      "assetReturn": -0.00487816,
+      "spyReturn": -0.00539221,
+      "excessReturn": 0.00051405,
+      "outcome": 1,
+      "correct": true
     },
     {
       "id": "2026-08-25:JPM:20:transparent-research-v5.0",
@@ -23127,7 +23197,7 @@
       "estimatedMaturityDate": "2026-09-01",
       "modelVersion": "transparent-research-v5.0",
       "dataHash": "sha256:4f63a7d98330e4e680cb3ce32c9771e9895f02b3e283d1c099f1fd516a39a1da",
-      "status": "pending",
+      "status": "evaluated",
       "changeFromPrevious": 0.004669,
       "decisionThreshold": 0.5,
       "contributions": [
@@ -23203,7 +23273,14 @@
           "formula": "z(feature) × coeficiente × pendiente_calibración",
           "source": "Precios ajustados point-in-time; feature_store.json"
         }
-      ]
+      ],
+      "evaluatedOn": "2026-09-01",
+      "finalPrice": 1160.0,
+      "assetReturn": -0.05970854,
+      "spyReturn": -0.00539221,
+      "excessReturn": -0.05431633,
+      "outcome": 0,
+      "correct": true
     },
     {
       "id": "2026-08-25:LLY:20:transparent-research-v5.0",
@@ -23406,7 +23483,7 @@
       "estimatedMaturityDate": "2026-09-01",
       "modelVersion": "transparent-research-v5.0",
       "dataHash": "sha256:4f63a7d98330e4e680cb3ce32c9771e9895f02b3e283d1c099f1fd516a39a1da",
-      "status": "pending",
+      "status": "evaluated",
       "changeFromPrevious": 0.001216,
       "decisionThreshold": 0.5,
       "contributions": [
@@ -23482,7 +23559,14 @@
           "formula": "z(feature) × coeficiente × pendiente_calibración",
           "source": "Precios ajustados point-in-time; feature_store.json"
         }
-      ]
+      ],
+      "evaluatedOn": "2026-09-01",
+      "finalPrice": 261.109985,
+      "assetReturn": -0.02607244,
+      "spyReturn": -0.00539221,
+      "excessReturn": -0.02068023,
+      "outcome": 0,
+      "correct": true
     },
     {
       "id": "2026-08-25:MCD:20:transparent-research-v5.0",
@@ -25401,7 +25485,7 @@
       "estimatedMaturityDate": "2026-09-01",
       "modelVersion": "transparent-research-v5.0",
       "dataHash": "sha256:4f63a7d98330e4e680cb3ce32c9771e9895f02b3e283d1c099f1fd516a39a1da",
-      "status": "pending",
+      "status": "evaluated",
       "changeFromPrevious": -0.000414,
       "decisionThreshold": 0.5,
       "contributions": [
@@ -25477,7 +25561,14 @@
           "formula": "z(feature) × coeficiente × pendiente_calibración",
           "source": "Precios ajustados point-in-time; feature_store.json"
         }
-      ]
+      ],
+      "evaluatedOn": "2026-09-01",
+      "finalPrice": 28.549999,
+      "assetReturn": -0.00070007,
+      "spyReturn": -0.00539221,
+      "excessReturn": 0.00469214,
+      "outcome": 1,
+      "correct": false
     },
     {
       "id": "2026-08-25:PFE:20:transparent-research-v5.0",
@@ -25966,7 +26057,7 @@
       "estimatedMaturityDate": "2026-09-01",
       "modelVersion": "transparent-research-v5.0",
       "dataHash": "sha256:4f63a7d98330e4e680cb3ce32c9771e9895f02b3e283d1c099f1fd516a39a1da",
-      "status": "pending",
+      "status": "evaluated",
       "changeFromPrevious": -0.001646,
       "decisionThreshold": 0.5,
       "contributions": [
@@ -26042,7 +26133,14 @@
           "formula": "z(feature) × coeficiente × pendiente_calibración",
           "source": "Precios ajustados point-in-time; feature_store.json"
         }
-      ]
+      ],
+      "evaluatedOn": "2026-09-01",
+      "finalPrice": 75.239998,
+      "assetReturn": -0.06359677,
+      "spyReturn": -0.00539221,
+      "excessReturn": -0.05820456,
+      "outcome": 0,
+      "correct": true
     },
     {
       "id": "2026-08-25:UBER:20:transparent-research-v5.0",
@@ -26245,7 +26343,7 @@
       "estimatedMaturityDate": "2026-09-01",
       "modelVersion": "transparent-research-v5.0",
       "dataHash": "sha256:4f63a7d98330e4e680cb3ce32c9771e9895f02b3e283d1c099f1fd516a39a1da",
-      "status": "pending",
+      "status": "evaluated",
       "changeFromPrevious": 0.001161,
       "decisionThreshold": 0.5,
       "contributions": [
@@ -26321,7 +26419,14 @@
           "formula": "z(feature) × coeficiente × pendiente_calibración",
           "source": "Precios ajustados point-in-time; feature_store.json"
         }
-      ]
+      ],
+      "evaluatedOn": "2026-09-01",
+      "finalPrice": 396.299988,
+      "assetReturn": -0.00073125,
+      "spyReturn": -0.00539221,
+      "excessReturn": 0.00466095,
+      "outcome": 1,
+      "correct": false
     },
     {
       "id": "2026-08-25:UNH:20:transparent-research-v5.0",
@@ -26524,7 +26629,7 @@
       "estimatedMaturityDate": "2026-09-01",
       "modelVersion": "transparent-research-v5.0",
       "dataHash": "sha256:4f63a7d98330e4e680cb3ce32c9771e9895f02b3e283d1c099f1fd516a39a1da",
-      "status": "pending",
+      "status": "evaluated",
       "changeFromPrevious": -0.00068,
       "decisionThreshold": 0.5,
       "contributions": [
@@ -26600,7 +26705,14 @@
           "formula": "z(feature) × coeficiente × pendiente_calibración",
           "source": "Precios ajustados point-in-time; feature_store.json"
         }
-      ]
+      ],
+      "evaluatedOn": "2026-09-01",
+      "finalPrice": 102.660004,
+      "assetReturn": -0.02358755,
+      "spyReturn": -0.00539221,
+      "excessReturn": -0.01819534,
+      "outcome": 0,
+      "correct": true
     },
     {
       "id": "2026-08-25:UPS:20:transparent-research-v5.0",
@@ -27089,7 +27201,7 @@
       "estimatedMaturityDate": "2026-09-01",
       "modelVersion": "transparent-research-v5.0",
       "dataHash": "sha256:4f63a7d98330e4e680cb3ce32c9771e9895f02b3e283d1c099f1fd516a39a1da",
-      "status": "pending",
+      "status": "evaluated",
       "changeFromPrevious": 0.001711,
       "decisionThreshold": 0.5,
       "contributions": [
@@ -27165,7 +27277,14 @@
           "formula": "z(feature) × coeficiente × pendiente_calibración",
           "source": "Precios ajustados point-in-time; feature_store.json"
         }
-      ]
+      ],
+      "evaluatedOn": "2026-09-01",
+      "finalPrice": 164.550003,
+      "assetReturn": 0.02434016,
+      "spyReturn": -0.00539221,
+      "excessReturn": 0.02973237,
+      "outcome": 1,
+      "correct": false
     },
     {
       "id": "2026-08-25:XOM:20:transparent-research-v5.0",
