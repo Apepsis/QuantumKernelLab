@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T00:28:15.671159+00:00",
+  "generatedAt": "2026-09-19T00:26:37.965049+00:00",
   "mode": "live",
   "hypothesis": "Un modelo transparente puede estimar la probabilidad de superar al SPY a 60 sesiones sin usar información futura.",
   "horizonSessions": 60,
@@ -123,71 +123,71 @@
         "calibrationStart": "2024-04-25",
         "calibrationEnd": "2025-12-31",
         "testStart": "2026-01-02",
-        "testEnd": "2026-06-22",
+        "testEnd": "2026-06-23",
         "trainRows": 54152,
-        "testRows": 3744
+        "testRows": 3776
       }
     ]
   },
   "metrics": {
     "spy": {
-      "totalReturn": 1.4171291745258068,
-      "cagr": 0.11663820418692938,
-      "sharpe": 0.767251569482178,
-      "sortino": 1.0068428883166953,
-      "maxDrawdown": -0.2893876290717252,
-      "volatility": 0.16303637272861285,
+      "totalReturn": 1.417129186831826,
+      "cagr": 0.11663820489755405,
+      "sharpe": 0.767252081639565,
+      "sortino": 1.0068445486164397,
+      "maxDrawdown": -0.2893875296355821,
+      "volatility": 0.16303623468686282,
       "hitRate": 0.71875,
       "alpha": 0.0,
       "beta": 1.0,
       "observations": 32
     },
     "technical": {
-      "totalReturn": 0.036576135208840954,
-      "cagr": 0.004500484940854976,
-      "sharpe": 0.12216873824586066,
-      "sortino": 0.19995052866493931,
-      "maxDrawdown": -0.3607044413519629,
-      "volatility": 0.20632345355255885,
+      "totalReturn": 0.03657688595029818,
+      "cagr": 0.004500575879655022,
+      "sharpe": 0.12216919352965656,
+      "sortino": 0.19995132790084394,
+      "maxDrawdown": -0.3607045689279519,
+      "volatility": 0.20632349992596205,
       "hitRate": 0.53125,
-      "alpha": -0.05805726955172605,
-      "beta": 0.6656295750786692,
+      "alpha": -0.05805720644315912,
+      "beta": 0.6656299860711724,
       "observations": 32
     },
     "heuristic": {
-      "totalReturn": 1.7886482595612319,
-      "cagr": 0.13677422352855806,
-      "sharpe": 0.6394781580685079,
-      "sortino": 1.6746240402029298,
-      "maxDrawdown": -0.3295287767983218,
-      "volatility": 0.2480615034705874,
+      "totalReturn": 1.7886487099960098,
+      "cagr": 0.1367742464806554,
+      "sharpe": 0.6394783122457458,
+      "sortino": 1.674624692381638,
+      "maxDrawdown": -0.3295289346682263,
+      "volatility": 0.24806146397606424,
       "hitRate": 0.59375,
-      "alpha": 0.04270632038076182,
-      "beta": 0.9267221496688639,
+      "alpha": 0.04270644048293022,
+      "beta": 0.9267214594258169,
       "observations": 32
     },
     "statistical": {
-      "totalReturn": 7.837577091661959,
-      "cagr": 0.31308140718800304,
-      "sharpe": 0.8448283660826302,
-      "sortino": 1.6461474232631088,
-      "maxDrawdown": -0.6619399019682,
-      "volatility": 0.42904138286752835,
+      "totalReturn": 7.8375817490991295,
+      "cagr": 0.3130814936878532,
+      "sharpe": 0.8448285718535176,
+      "sortino": 1.6461472876843466,
+      "maxDrawdown": -0.6619399380086031,
+      "volatility": 0.4290413505437492,
       "hitRate": 0.71875,
-      "alpha": 0.1205870133835906,
-      "beta": 1.9336436612552514,
+      "alpha": 0.12058673285055274,
+      "beta": 1.9336467378194029,
       "observations": 32
     },
     "riskControlled": {
-      "totalReturn": 0.6742764706791595,
-      "cagr": 0.06654306650195752,
-      "sharpe": 0.6729792370335079,
-      "sortino": 1.1370823498836704,
-      "maxDrawdown": -0.1549703667148804,
-      "volatility": 0.10415015523300772,
+      "totalReturn": 0.6742762933681234,
+      "cagr": 0.06654305238318248,
+      "sharpe": 0.6729790348855522,
+      "sortino": 1.1370808809592476,
+      "maxDrawdown": -0.15497038165187105,
+      "volatility": 0.10415016899894342,
       "hitRate": 0.625,
-      "alpha": 0.005219210406578828,
-      "beta": 0.5186004220206419,
+      "alpha": 0.005219114887834983,
+      "beta": 0.5186011842911982,
       "observations": 32
     }
   },
@@ -202,7 +202,7 @@
     },
     {
       "date": "2020-03-30",
-      "spy": 0.945683,
+      "spy": 0.945684,
       "technical": 0.936896,
       "heuristic": 1.002746,
       "statistical": 1.125509,
@@ -214,15 +214,15 @@
       "technical": 0.98092,
       "heuristic": 1.061081,
       "statistical": 1.255623,
-      "riskControlled": 0.981704
+      "riskControlled": 0.981703
     },
     {
       "date": "2020-09-18",
-      "spy": 1.138588,
+      "spy": 1.138589,
       "technical": 0.961745,
       "heuristic": 1.128384,
       "statistical": 1.539417,
-      "riskControlled": 1.02482
+      "riskControlled": 1.024819
     },
     {
       "date": "2020-12-14",
@@ -234,7 +234,7 @@
     },
     {
       "date": "2021-01-04",
-      "spy": 1.332252,
+      "spy": 1.332251,
       "technical": 0.946318,
       "heuristic": 1.72648,
       "statistical": 1.623196,
@@ -242,10 +242,10 @@
     },
     {
       "date": "2021-03-31",
-      "spy": 1.438729,
+      "spy": 1.438728,
       "technical": 0.96618,
-      "heuristic": 1.745059,
-      "statistical": 1.691873,
+      "heuristic": 1.74506,
+      "statistical": 1.691874,
       "riskControlled": 1.030748
     },
     {
@@ -253,39 +253,39 @@
       "spy": 1.467088,
       "technical": 0.967511,
       "heuristic": 1.781437,
-      "statistical": 1.845605,
+      "statistical": 1.845606,
       "riskControlled": 1.068971
     },
     {
       "date": "2021-09-21",
-      "spy": 1.592168,
+      "spy": 1.592167,
       "technical": 1.042885,
-      "heuristic": 2.042902,
-      "statistical": 2.169818,
+      "heuristic": 2.042903,
+      "statistical": 2.169819,
       "riskControlled": 1.128056
     },
     {
       "date": "2021-12-15",
       "spy": 1.415781,
-      "technical": 1.102584,
-      "heuristic": 2.159847,
-      "statistical": 1.577154,
+      "technical": 1.102585,
+      "heuristic": 2.159848,
+      "statistical": 1.577155,
       "riskControlled": 1.057713
     },
     {
       "date": "2022-01-03",
       "spy": 1.363665,
-      "technical": 1.248065,
+      "technical": 1.248066,
       "heuristic": 1.982102,
-      "statistical": 1.37833,
+      "statistical": 1.378331,
       "riskControlled": 1.029602
     },
     {
       "date": "2022-03-30",
       "spy": 1.160226,
-      "technical": 1.148907,
+      "technical": 1.148908,
       "heuristic": 1.975666,
-      "statistical": 0.897737,
+      "statistical": 0.897738,
       "riskControlled": 0.977675
     },
     {
@@ -294,15 +294,15 @@
       "technical": 1.08396,
       "heuristic": 1.863982,
       "statistical": 0.733529,
-      "riskControlled": 0.962617
+      "riskControlled": 0.962616
     },
     {
       "date": "2022-09-21",
-      "spy": 1.168109,
+      "spy": 1.16811,
       "technical": 0.981259,
       "heuristic": 1.687377,
       "statistical": 0.790338,
-      "riskControlled": 0.953241
+      "riskControlled": 0.95324
     },
     {
       "date": "2022-12-15",
@@ -316,30 +316,30 @@
       "date": "2023-01-03",
       "spy": 1.247603,
       "technical": 0.797883,
-      "heuristic": 1.448116,
+      "heuristic": 1.448115,
       "statistical": 1.538768,
       "riskControlled": 1.061565
     },
     {
       "date": "2023-03-30",
       "spy": 1.352956,
-      "technical": 0.935783,
+      "technical": 0.935784,
       "heuristic": 1.666733,
       "statistical": 2.089743,
-      "riskControlled": 1.134706
+      "riskControlled": 1.134705
     },
     {
       "date": "2023-06-27",
       "spy": 1.342849,
       "technical": 0.973391,
       "heuristic": 1.60402,
-      "statistical": 2.109768,
+      "statistical": 2.109769,
       "riskControlled": 1.135376
     },
     {
       "date": "2023-09-21",
       "spy": 1.466873,
-      "technical": 0.890543,
+      "technical": 0.890544,
       "heuristic": 1.467498,
       "statistical": 2.5516,
       "riskControlled": 1.210947
@@ -349,15 +349,15 @@
       "spy": 1.609457,
       "technical": 0.89326,
       "heuristic": 1.869473,
-      "statistical": 2.753673,
+      "statistical": 2.753674,
       "riskControlled": 1.234537
     },
     {
       "date": "2024-01-02",
       "spy": 1.78668,
-      "technical": 1.006239,
+      "technical": 1.00624,
       "heuristic": 2.250516,
-      "statistical": 2.982442,
+      "statistical": 2.982444,
       "riskControlled": 1.333456
     },
     {
@@ -365,87 +365,87 @@
       "spy": 1.867011,
       "technical": 1.114762,
       "heuristic": 2.558971,
-      "statistical": 3.508815,
+      "statistical": 3.508817,
       "riskControlled": 1.420296
     },
     {
       "date": "2024-06-25",
       "spy": 1.956621,
-      "technical": 1.233766,
-      "heuristic": 2.821828,
-      "statistical": 3.772129,
+      "technical": 1.233767,
+      "heuristic": 2.821829,
+      "statistical": 3.772131,
       "riskControlled": 1.447235
     },
     {
       "date": "2024-09-19",
       "spy": 2.076844,
-      "technical": 1.266212,
-      "heuristic": 2.942428,
-      "statistical": 3.922428,
+      "technical": 1.266213,
+      "heuristic": 2.942429,
+      "statistical": 3.922431,
       "riskControlled": 1.464218
     },
     {
       "date": "2024-12-13",
       "spy": 1.941051,
-      "technical": 1.111597,
-      "heuristic": 2.608645,
-      "statistical": 3.629268,
+      "technical": 1.111598,
+      "heuristic": 2.608646,
+      "statistical": 3.62927,
       "riskControlled": 1.371672
     },
     {
       "date": "2025-01-02",
       "spy": 1.868067,
-      "technical": 0.988335,
+      "technical": 0.988336,
       "heuristic": 2.43302,
-      "statistical": 3.227564,
+      "statistical": 3.227566,
       "riskControlled": 1.328101
     },
     {
       "date": "2025-04-01",
-      "spy": 2.053744,
-      "technical": 1.002979,
-      "heuristic": 2.469069,
-      "statistical": 3.906141,
+      "spy": 2.053745,
+      "technical": 1.00298,
+      "heuristic": 2.46907,
+      "statistical": 3.906143,
       "riskControlled": 1.409575
     },
     {
       "date": "2025-06-27",
       "spy": 2.221204,
-      "technical": 1.154335,
-      "heuristic": 2.907593,
-      "statistical": 4.599661,
+      "technical": 1.154336,
+      "heuristic": 2.907594,
+      "statistical": 4.599664,
       "riskControlled": 1.465235
     },
     {
       "date": "2025-09-23",
       "spy": 2.248633,
-      "technical": 1.112719,
-      "heuristic": 3.033699,
-      "statistical": 4.958873,
+      "technical": 1.11272,
+      "heuristic": 3.0337,
+      "statistical": 4.958876,
       "riskControlled": 1.45681
     },
     {
       "date": "2025-12-17",
       "spy": 2.253228,
-      "technical": 1.09151,
-      "heuristic": 3.234378,
-      "statistical": 5.276264,
+      "technical": 1.091511,
+      "heuristic": 3.234379,
+      "statistical": 5.276267,
       "riskControlled": 1.438271
     },
     {
       "date": "2026-01-02",
       "spy": 2.150807,
-      "technical": 1.079224,
+      "technical": 1.079225,
       "heuristic": 2.903382,
-      "statistical": 5.172567,
+      "statistical": 5.17257,
       "riskControlled": 1.436303
     },
     {
       "date": "2026-03-31",
       "spy": 2.417129,
-      "technical": 1.036576,
-      "heuristic": 2.788648,
-      "statistical": 8.837577,
+      "technical": 1.036577,
+      "heuristic": 2.788649,
+      "statistical": 8.837582,
       "riskControlled": 1.674276
     }
   ],
@@ -460,7 +460,7 @@
     },
     {
       "date": "2020-03-30",
-      "spy": -0.054317,
+      "spy": -0.054316,
       "technical": -0.063104,
       "heuristic": 0.0,
       "statistical": 0.0,
@@ -472,7 +472,7 @@
       "technical": -0.01908,
       "heuristic": 0.0,
       "statistical": 0.0,
-      "riskControlled": -0.018296
+      "riskControlled": -0.018297
     },
     {
       "date": "2020-09-18",
@@ -488,7 +488,7 @@
       "technical": -0.032137,
       "heuristic": 0.0,
       "statistical": -0.021612,
-      "riskControlled": -0.005729
+      "riskControlled": -0.005728
     },
     {
       "date": "2021-01-04",
@@ -532,55 +532,55 @@
     },
     {
       "date": "2022-01-03",
-      "spy": -0.143517,
+      "spy": -0.143516,
       "technical": 0.0,
-      "heuristic": -0.082295,
-      "statistical": -0.364772,
+      "heuristic": -0.082296,
+      "statistical": -0.364771,
       "riskControlled": -0.087278
     },
     {
       "date": "2022-03-30",
-      "spy": -0.271292,
+      "spy": -0.271291,
       "technical": -0.079449,
       "heuristic": -0.085275,
-      "statistical": -0.586262,
+      "statistical": -0.586261,
       "riskControlled": -0.13331
     },
     {
       "date": "2022-06-27",
-      "spy": -0.289388,
+      "spy": -0.289387,
       "technical": -0.131488,
-      "heuristic": -0.136984,
+      "heuristic": -0.136985,
       "statistical": -0.66194,
-      "riskControlled": -0.146658
+      "riskControlled": -0.146659
     },
     {
       "date": "2022-09-21",
-      "spy": -0.266341,
+      "spy": -0.26634,
       "technical": -0.213776,
       "heuristic": -0.218752,
-      "statistical": -0.635758,
-      "riskControlled": -0.15497
+      "statistical": -0.635759,
+      "riskControlled": -0.154971
     },
     {
       "date": "2022-12-15",
-      "spy": -0.263634,
+      "spy": -0.263633,
       "technical": -0.261119,
       "heuristic": -0.287135,
-      "statistical": -0.536139,
+      "statistical": -0.53614,
       "riskControlled": -0.125238
     },
     {
       "date": "2023-01-03",
       "spy": -0.216412,
       "technical": -0.360704,
-      "heuristic": -0.329528,
+      "heuristic": -0.329529,
       "statistical": -0.290831,
       "riskControlled": -0.058943
     },
     {
       "date": "2023-03-30",
-      "spy": -0.150243,
+      "spy": -0.150242,
       "technical": -0.250213,
       "heuristic": -0.22831,
       "statistical": -0.036904,
@@ -588,15 +588,15 @@
     },
     {
       "date": "2023-06-27",
-      "spy": -0.156591,
-      "technical": -0.22008,
+      "spy": -0.15659,
+      "technical": -0.220081,
       "heuristic": -0.257346,
       "statistical": -0.027675,
       "riskControlled": 0.0
     },
     {
       "date": "2023-09-21",
-      "spy": -0.078695,
+      "spy": -0.078694,
       "technical": -0.286461,
       "heuristic": -0.320555,
       "statistical": 0.0,
@@ -605,7 +605,7 @@
     {
       "date": "2023-12-15",
       "spy": 0.0,
-      "technical": -0.284284,
+      "technical": -0.284285,
       "heuristic": -0.134442,
       "statistical": 0.0,
       "riskControlled": 0.0
@@ -647,7 +647,7 @@
       "spy": -0.065384,
       "technical": -0.122108,
       "heuristic": -0.113438,
-      "statistical": -0.074739,
+      "statistical": -0.07474,
       "riskControlled": -0.063205
     },
     {
@@ -655,15 +655,15 @@
       "spy": -0.100526,
       "technical": -0.219455,
       "heuristic": -0.173125,
-      "statistical": -0.177151,
+      "statistical": -0.177152,
       "riskControlled": -0.092962
     },
     {
       "date": "2025-04-01",
-      "spy": -0.011123,
+      "spy": -0.011122,
       "technical": -0.20789,
       "heuristic": -0.160874,
-      "statistical": -0.004152,
+      "statistical": -0.004153,
       "riskControlled": -0.037319
     },
     {
@@ -734,18 +734,18 @@
     },
     {
       "year": "2023",
-      "spy": 0.372766,
+      "spy": 0.372765,
       "technical": -0.031352,
       "heuristic": 0.214196,
       "statistical": 1.73591,
-      "riskControlled": 0.251074
+      "riskControlled": 0.251075
     },
     {
       "year": "2024",
       "spy": 0.206029,
       "technical": 0.244427,
       "heuristic": 0.395391,
-      "statistical": 0.317973,
+      "statistical": 0.317974,
       "riskControlled": 0.111083
     },
     {
@@ -766,9 +766,9 @@
     }
   ],
   "calibration": {
-    "brierScore": 0.251564,
-    "accuracy": 0.510122,
-    "sampleSize": 51964,
+    "brierScore": 0.251571,
+    "accuracy": 0.510039,
+    "sampleSize": 51996,
     "bins": [
       {
         "predicted": 0.3724,
@@ -776,14 +776,14 @@
         "count": 212
       },
       {
-        "predicted": 0.50998,
-        "observed": 0.49803,
-        "count": 50186
+        "predicted": 0.50997,
+        "observed": 0.49799,
+        "count": 50216
       },
       {
-        "predicted": 0.63984,
-        "observed": 0.47637,
-        "count": 1566
+        "predicted": 0.63989,
+        "observed": 0.4764,
+        "count": 1568
       }
     ]
   },
@@ -803,9 +803,9 @@
           "GE",
           "UPS"
         ],
-        "grossExposure": 0.516607,
-        "cashWeight": 0.483393,
-        "maxPositionWeight": 0.103321,
+        "grossExposure": 0.516608,
+        "cashWeight": 0.483392,
+        "maxPositionWeight": 0.103322,
         "spyAboveSma200": true,
         "estimatedAnnualVolatility": 0.232285,
         "dailyCvarProxy": 0.01559255
@@ -823,7 +823,7 @@
         "cashWeight": 0.850467,
         "maxPositionWeight": 0.029907,
         "spyAboveSma200": false,
-        "estimatedAnnualVolatility": 0.802499,
+        "estimatedAnnualVolatility": 0.8025,
         "dailyCvarProxy": 0.01559255
       },
       {
@@ -835,9 +835,9 @@
           "PFE",
           "UBER"
         ],
-        "grossExposure": 0.275887,
-        "cashWeight": 0.724113,
-        "maxPositionWeight": 0.055177,
+        "grossExposure": 0.275888,
+        "cashWeight": 0.724112,
+        "maxPositionWeight": 0.055178,
         "spyAboveSma200": true,
         "estimatedAnnualVolatility": 0.43496,
         "dailyCvarProxy": 0.01559255
@@ -883,11 +883,11 @@
           "DIS",
           "AAPL"
         ],
-        "grossExposure": 0.260611,
-        "cashWeight": 0.739389,
+        "grossExposure": 0.260612,
+        "cashWeight": 0.739388,
         "maxPositionWeight": 0.052122,
         "spyAboveSma200": true,
-        "estimatedAnnualVolatility": 0.460456,
+        "estimatedAnnualVolatility": 0.460455,
         "dailyCvarProxy": 0.01559255
       },
       {
@@ -899,8 +899,8 @@
           "INTC",
           "GE"
         ],
-        "grossExposure": 0.267245,
-        "cashWeight": 0.732755,
+        "grossExposure": 0.267246,
+        "cashWeight": 0.732754,
         "maxPositionWeight": 0.053449,
         "spyAboveSma200": true,
         "estimatedAnnualVolatility": 0.449025,
@@ -931,8 +931,8 @@
           "CAT",
           "GE"
         ],
-        "grossExposure": 0.50282,
-        "cashWeight": 0.49718,
+        "grossExposure": 0.502819,
+        "cashWeight": 0.497181,
         "maxPositionWeight": 0.100564,
         "spyAboveSma200": true,
         "estimatedAnnualVolatility": 0.238654,
@@ -1031,7 +1031,7 @@
         "cashWeight": 0.802893,
         "maxPositionWeight": 0.039421,
         "spyAboveSma200": false,
-        "estimatedAnnualVolatility": 0.608806,
+        "estimatedAnnualVolatility": 0.608805,
         "dailyCvarProxy": 0.01559255
       },
       {
@@ -1123,8 +1123,8 @@
           "HD",
           "UBER"
         ],
-        "grossExposure": 0.585481,
-        "cashWeight": 0.414519,
+        "grossExposure": 0.58548,
+        "cashWeight": 0.41452,
         "maxPositionWeight": 0.117096,
         "spyAboveSma200": true,
         "estimatedAnnualVolatility": 0.20496,
@@ -1155,8 +1155,8 @@
           "AAPL",
           "GOOGL"
         ],
-        "grossExposure": 0.471064,
-        "cashWeight": 0.528936,
+        "grossExposure": 0.471063,
+        "cashWeight": 0.528937,
         "maxPositionWeight": 0.094213,
         "spyAboveSma200": true,
         "estimatedAnnualVolatility": 0.254743,
@@ -1171,11 +1171,11 @@
           "HD",
           "UNH"
         ],
-        "grossExposure": 0.606107,
-        "cashWeight": 0.393893,
-        "maxPositionWeight": 0.121221,
+        "grossExposure": 0.606108,
+        "cashWeight": 0.393892,
+        "maxPositionWeight": 0.121222,
         "spyAboveSma200": true,
-        "estimatedAnnualVolatility": 0.197985,
+        "estimatedAnnualVolatility": 0.197984,
         "dailyCvarProxy": 0.01559255
       },
       {
@@ -1191,7 +1191,7 @@
         "cashWeight": 0.298063,
         "maxPositionWeight": 0.140387,
         "spyAboveSma200": true,
-        "estimatedAnnualVolatility": 0.170956,
+        "estimatedAnnualVolatility": 0.170955,
         "dailyCvarProxy": 0.01559255
       },
       {
@@ -1207,7 +1207,7 @@
         "cashWeight": 0.662025,
         "maxPositionWeight": 0.067595,
         "spyAboveSma200": true,
-        "estimatedAnnualVolatility": 0.355055,
+        "estimatedAnnualVolatility": 0.355056,
         "dailyCvarProxy": 0.01559255
       },
       {
