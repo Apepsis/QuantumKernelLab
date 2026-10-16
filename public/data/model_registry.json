@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-15T00:37:16+00:00",
+  "generatedAt": "2026-10-16T00:30:46+00:00",
   "mode": "live",
   "champion": {
     "key": "statistical",
     "version": "transparent-research-v4.0",
     "metrics": {
-      "totalReturn": 7.236942842784748,
-      "cagr": 0.29122505859311687,
-      "sharpe": 0.7889538506533164,
-      "sortino": 1.5847750265596805,
-      "maxDrawdown": -0.6619399602472558,
-      "volatility": 0.4393800033743549,
+      "totalReturn": 7.236945438739676,
+      "cagr": 0.29122510791947276,
+      "sharpe": 0.7889539755439264,
+      "sortino": 1.5847750047497504,
+      "maxDrawdown": -0.6619399583124852,
+      "volatility": 0.43937996528556184,
       "hitRate": 0.6666666666666666,
-      "alpha": 0.10498328191471881,
-      "beta": 1.8733973923146559,
+      "alpha": 0.1049833717143662,
+      "beta": 1.8733960105386929,
       "observations": 33
     }
   },
@@ -21,15 +21,15 @@
     "key": "riskControlled",
     "version": "risk-controlled-v5.0",
     "metrics": {
-      "totalReturn": 0.5698314678345704,
-      "cagr": 0.05618443078215818,
-      "sharpe": 0.5845893870561659,
-      "sortino": 0.8620258786045718,
-      "maxDrawdown": -0.15361045186685274,
-      "volatility": 0.10280105103944594,
+      "totalReturn": 0.5698320148008043,
+      "cagr": 0.0561844753881533,
+      "sharpe": 0.584589864131218,
+      "sortino": 0.8620269994369126,
+      "maxDrawdown": -0.15361046637251974,
+      "volatility": 0.1028010377182438,
       "hitRate": 0.6060606060606061,
-      "alpha": -0.007393613714834872,
-      "beta": 0.5231805921564483,
+      "alpha": -0.007393549391338704,
+      "beta": 0.5231801681187457,
       "observations": 33
     },
     "rules": {
@@ -68,7 +68,7 @@
           "cashWeight": 0.850467,
           "maxPositionWeight": 0.029907,
           "spyAboveSma200": false,
-          "estimatedAnnualVolatility": 0.802499,
+          "estimatedAnnualVolatility": 0.8025,
           "dailyCvarProxy": 0.01559255
         },
         {
@@ -84,7 +84,7 @@
           "cashWeight": 0.724112,
           "maxPositionWeight": 0.055178,
           "spyAboveSma200": true,
-          "estimatedAnnualVolatility": 0.434959,
+          "estimatedAnnualVolatility": 0.43496,
           "dailyCvarProxy": 0.01559255
         },
         {
@@ -132,7 +132,7 @@
           "cashWeight": 0.739389,
           "maxPositionWeight": 0.052122,
           "spyAboveSma200": true,
-          "estimatedAnnualVolatility": 0.460455,
+          "estimatedAnnualVolatility": 0.460456,
           "dailyCvarProxy": 0.01559255
         },
         {
@@ -180,7 +180,7 @@
           "cashWeight": 0.497181,
           "maxPositionWeight": 0.100564,
           "spyAboveSma200": true,
-          "estimatedAnnualVolatility": 0.238654,
+          "estimatedAnnualVolatility": 0.238655,
           "dailyCvarProxy": 0.01559255
         },
         {
@@ -276,7 +276,7 @@
           "cashWeight": 0.802893,
           "maxPositionWeight": 0.039421,
           "spyAboveSma200": false,
-          "estimatedAnnualVolatility": 0.608806,
+          "estimatedAnnualVolatility": 0.608805,
           "dailyCvarProxy": 0.01559255
         },
         {
@@ -308,7 +308,7 @@
           "cashWeight": 0.78212,
           "maxPositionWeight": 0.043576,
           "spyAboveSma200": true,
-          "estimatedAnnualVolatility": 0.550762,
+          "estimatedAnnualVolatility": 0.550761,
           "dailyCvarProxy": 0.01559255
         },
         {
@@ -368,11 +368,11 @@
             "HD",
             "GS"
           ],
-          "grossExposure": 0.585479,
-          "cashWeight": 0.414521,
+          "grossExposure": 0.585481,
+          "cashWeight": 0.414519,
           "maxPositionWeight": 0.117096,
           "spyAboveSma200": true,
-          "estimatedAnnualVolatility": 0.204961,
+          "estimatedAnnualVolatility": 0.20496,
           "dailyCvarProxy": 0.01559255
         },
         {
@@ -400,8 +400,8 @@
             "AAPL",
             "MSFT"
           ],
-          "grossExposure": 0.609579,
-          "cashWeight": 0.390421,
+          "grossExposure": 0.609578,
+          "cashWeight": 0.390422,
           "maxPositionWeight": 0.121916,
           "spyAboveSma200": true,
           "estimatedAnnualVolatility": 0.196857,
@@ -420,7 +420,7 @@
           "cashWeight": 0.393892,
           "maxPositionWeight": 0.121222,
           "spyAboveSma200": true,
-          "estimatedAnnualVolatility": 0.197984,
+          "estimatedAnnualVolatility": 0.197985,
           "dailyCvarProxy": 0.01559255
         },
         {
@@ -516,7 +516,7 @@
           "cashWeight": 0.643096,
           "maxPositionWeight": 0.071381,
           "spyAboveSma200": true,
-          "estimatedAnnualVolatility": 0.336225,
+          "estimatedAnnualVolatility": 0.336224,
           "dailyCvarProxy": 0.01559255
         },
         {
@@ -574,15 +574,15 @@
     "key": "statistical",
     "version": "transparent-research-v4.0",
     "metrics": {
-      "totalReturn": 7.236942842784748,
-      "cagr": 0.29122505859311687,
-      "sharpe": 0.7889538506533164,
-      "sortino": 1.5847750265596805,
-      "maxDrawdown": -0.6619399602472558,
-      "volatility": 0.4393800033743549,
+      "totalReturn": 7.236945438739676,
+      "cagr": 0.29122510791947276,
+      "sharpe": 0.7889539755439264,
+      "sortino": 1.5847750047497504,
+      "maxDrawdown": -0.6619399583124852,
+      "volatility": 0.43937996528556184,
       "hitRate": 0.6666666666666666,
-      "alpha": 0.10498328191471881,
-      "beta": 1.8733973923146559,
+      "alpha": 0.1049833717143662,
+      "beta": 1.8733960105386929,
       "observations": 33
     }
   },
@@ -595,15 +595,9 @@
   "qualifiedThisRun": false,
   "qualificationStreak": 0,
   "requiredStreak": 3,
-  "lastQualificationDate": "2026-10-15",
+  "lastQualificationDate": "2026-10-16",
   "decision": "Permanece como challenger hasta cumplir todos los criterios en tres ejecuciones diarias consecutivas.",
   "history": [
-    {
-      "date": "2026-09-16",
-      "qualified": false,
-      "streak": 0,
-      "champion": "statistical"
-    },
     {
       "date": "2026-09-17",
       "qualified": false,
@@ -774,6 +768,12 @@
     },
     {
       "date": "2026-10-15",
+      "qualified": false,
+      "streak": 0,
+      "champion": "statistical"
+    },
+    {
+      "date": "2026-10-16",
       "qualified": false,
       "streak": 0,
       "champion": "statistical"
