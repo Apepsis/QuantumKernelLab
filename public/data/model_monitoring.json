@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-08T01:31:26+00:00",
+  "generatedAt": "2026-11-09T01:49:30+00:00",
   "mode": "live",
   "status": "healthy",
   "data": {
     "predictionCoverage": 1.0,
     "predictionsPublished": 96,
     "predictionsExpected": 96,
-    "marketDataAgeHours": 0.01,
+    "marketDataAgeHours": 0.038,
     "providerErrors": 0
   },
   "featureDrift": {
@@ -28,7 +28,7 @@
       },
       {
         "feature": "vol_20",
-        "referenceMean": 0.29203859,
+        "referenceMean": 0.29203858,
         "latestMean": 0.41599668,
         "standardizedShift": 0.70154
       },
@@ -46,7 +46,7 @@
       },
       {
         "feature": "drawdown_252",
-        "referenceMean": -0.11894411,
+        "referenceMean": -0.11894412,
         "latestMean": -0.19605228,
         "standardizedShift": -0.6022
       },
