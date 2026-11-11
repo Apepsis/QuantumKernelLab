@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T01:29:40+00:00",
+  "generatedAt": "2026-11-11T01:59:58+00:00",
   "mode": "live",
   "refreshIntervalMinutes": 20,
   "policy": "Vigilancia rápida independiente: detecta eventos y urgencia, pero no modifica el score oficial hasta el pipeline diario.",
@@ -126,8 +126,8 @@
         {
           "title": "Amazon Delivers Fantastic News for Uber Stock Investors - The Globe and Mail",
           "source": "The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPeDB3LWN5b3BIb1oyZDNIZFVuYXgwRjBQVFliUmhMQmlucG1OcGtPdTdXcFZzMU5Ma2VsREdSbWVCZ1FvMjRFZmg2dHJ4MHJUTWVGTGg5dkgwdTFoWEhPVXdvUDdMUHJ1VlZtTzFka21sWFBraXRwZG5UQ1FMMXBjM2lWc2lVR1gyNWVFbVd6VENPSWZkeDlwYkR2YmpjS1o5Y2JkcmRSQkRibVFpZTgtcU9oa25Tb2JzaFp1SzJ3ZTNPZ0t2VGVpajRMU3ZrR00?oc=5",
-          "publishedAt": "Tue, 10 Nov 2026 13:55:15 GMT",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQUN2NnotdWlLa2YwN0lyQWo4Mk5WWkhOaFM1Vm41ZGl5T0JacUVMeFJ0Wjdpd2YtZWFHdFhadjRXVU1JcWpmMmRmbEhqemNFYWFNcWRjTGMtOUMzWHg0RnRha3lURW43NkVhNG11bWo5TGdDaVJyekd2Z0UwMV9tRjhsLXdlaVNsY1F0U3ZsNXBsZmVNMkwwRDZabTZUMU54NDJnZ2V3Qk1YdlVDRlh2OU1Bdy1FYm40a3VOUjhKZ0RXUVdGWURLNmpoQkl6R1FWNkFnSzFUVQ?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 13:22:05 GMT",
           "sentiment": "neutral",
           "eventType": "mercado",
           "duration": "temporary",
@@ -136,8 +136,8 @@
           "novelty": 0.357,
           "entityMatched": true,
           "impactWeight": 0.0,
-          "id": "078e0a2b1f2ea20b8c98",
-          "firstSeenAt": "2026-11-10T15:47:22+00:00"
+          "id": "328a74d66195b2aeea2b",
+          "firstSeenAt": "2026-11-11T01:59:58+00:00"
         }
       ]
     },
@@ -181,20 +181,20 @@
           "firstSeenAt": "2026-11-10T00:08:00+00:00"
         },
         {
-          "title": "Where Will Apple Stock Be in 5 Years? - Yahoo Finance",
-          "source": "Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObEJWcVExS0JUOTB4RW8zdzRSNDh5dThnbDM2X2JfTlpBTENiRmJQdjhfczUwUEVVbWp4elAtQkJzTmo4Rnd3UmNxT0FmZjF3QUkwRkNfZldWY3h2cm5fMjBqMVpua3JJbkhNem0yU21DNnd4cGRmSzE0SnVZRURqZEM2VDgxN1otcEh6am5DVnk2djRy?oc=5",
-          "publishedAt": "Mon, 09 Nov 2026 17:10:00 GMT",
+          "title": "Apple Inc. (AAPL) stock price, news, quote and history - Yahoo Finance Singapore",
+          "source": "Yahoo Finance Singapore",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5pbUxLdFVNSjJfVjFOUm9UYmFBYUVBRmV5Q3FJU3lfblNtbVNvZjI4N1hEdlVtTnBMYWRCMi0wUTVTUGdxMUhDb0plLWlmcWdqMEE?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 16:27:52 GMT",
           "sentiment": "neutral",
           "eventType": "mercado",
           "duration": "temporary",
           "confidence": 0.45,
-          "relevance": 0.69,
-          "novelty": 0.778,
+          "relevance": 0.85,
+          "novelty": 0.714,
           "entityMatched": true,
           "impactWeight": 0.0,
-          "id": "7fb5724fd56dad697a21",
-          "firstSeenAt": "2026-11-10T00:08:00+00:00"
+          "id": "a333310f14572b40787b",
+          "firstSeenAt": "2026-11-11T01:59:58+00:00"
         },
         {
           "title": "AAPL Stock Quote Price and Forecast - CNN",
@@ -206,7 +206,7 @@
           "duration": "temporary",
           "confidence": 0.45,
           "relevance": 0.69,
-          "novelty": 0.842,
+          "novelty": 0.643,
           "entityMatched": true,
           "impactWeight": 0.0,
           "id": "a93acdf6afcc92f92c41",
@@ -222,7 +222,7 @@
           "duration": "temporary",
           "confidence": 0.45,
           "relevance": 0.69,
-          "novelty": 0.938,
+          "novelty": 0.952,
           "entityMatched": true,
           "impactWeight": 0.0,
           "id": "73f0ce8f1a9b49f775e0",
@@ -238,7 +238,7 @@
           "duration": "medium",
           "confidence": 0.45,
           "relevance": 0.69,
-          "novelty": 0.88,
+          "novelty": 0.864,
           "entityMatched": true,
           "impactWeight": 0.0,
           "id": "213b1206e9a2eeea1cbc",
@@ -254,7 +254,7 @@
           "duration": "temporary",
           "confidence": 0.45,
           "relevance": 0.69,
-          "novelty": 0.833,
+          "novelty": 0.882,
           "entityMatched": true,
           "impactWeight": 0.0,
           "id": "82df0432a99c2cf58b05",
@@ -286,22 +286,6 @@
       "signalStrength": 0.0,
       "items": [
         {
-          "title": "Microsoft Stock Falls On Anthropic’s Challenge To Office Software - Investor's Business Daily",
-          "source": "Investor's Business Daily",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVU1YdlJPSUlEcmx5OUpyelIxZlBYSnp5QmUzbTJpNE5IcG4xSURIbndrNWlHSXJpMGVacnM2QlpmWGdUbWRtY0xJQ3l1Z3RqN0RCRDM5VXZEOFlQWktpNTBDdHZqTTJDRnhlUkFVS1VOQS1Dakx2VmFhSVU3WXlaTGFicjRpcnBPWjJkbHBtcExZbXQySktYOWRB?oc=5",
-          "publishedAt": "Tue, 10 Nov 2026 21:27:00 GMT",
-          "sentiment": "neutral",
-          "eventType": "mercado",
-          "duration": "temporary",
-          "confidence": 0.45,
-          "relevance": 0.69,
-          "novelty": 1,
-          "entityMatched": true,
-          "impactWeight": 0.0,
-          "id": "a38200615db725cb1fc6",
-          "firstSeenAt": "2026-11-10T21:45:56+00:00"
-        },
-        {
           "title": "Microsoft tumbles as Anthropic unveils office tools ahead of IPO (MSFT:NASDAQ) - Seeking Alpha",
           "source": "Seeking Alpha",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNk5XZzZTN001ckRmLXd3cmt5T0dYMXBnYkd5aUs2dmMzcU9kNFlSYU5ZaFY0UVE3U2VVdGxzbnJoZVp4blJkMDMySktmWTFVZFZEU3YyeWRXeW1TSHNpQnFwMmNuaGYyVXRmakRsQ3lNU08xaVhrdGphSGNWdmZTeVlpWER6SW9VaW1PZzU5QWZMOGg1b1M2UDMxamE4MHl2RzFTRg?oc=5",
@@ -311,10 +295,26 @@
           "duration": "temporary",
           "confidence": 0.45,
           "relevance": 0.85,
-          "novelty": 0.842,
+          "novelty": 1,
           "entityMatched": true,
           "impactWeight": 0.0,
           "id": "b06b19a3b5c6dd7324bf",
+          "firstSeenAt": "2026-11-10T21:45:56+00:00"
+        },
+        {
+          "title": "Microsoft Stock Falls On Anthropic’s Challenge To Office Software - Investor's Business Daily",
+          "source": "Investor's Business Daily",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVU1YdlJPSUlEcmx5OUpyelIxZlBYSnp5QmUzbTJpNE5IcG4xSURIbndrNWlHSXJpMGVacnM2QlpmWGdUbWRtY0xJQ3l1Z3RqN0RCRDM5VXZEOFlQWktpNTBDdHZqTTJDRnhlUkFVS1VOQS1Dakx2VmFhSVU3WXlaTGFicjRpcnBPWjJkbHBtcExZbXQySktYOWRB?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 21:27:00 GMT",
+          "sentiment": "neutral",
+          "eventType": "mercado",
+          "duration": "temporary",
+          "confidence": 0.45,
+          "relevance": 0.69,
+          "novelty": 0.842,
+          "entityMatched": true,
+          "impactWeight": 0.0,
+          "id": "a38200615db725cb1fc6",
           "firstSeenAt": "2026-11-10T21:45:56+00:00"
         },
         {
@@ -382,6 +382,22 @@
           "firstSeenAt": "2026-11-10T21:45:56+00:00"
         },
         {
+          "title": "Microsoft Stock Falls as Anthropic Unveils Excel Competitor. Don’t Panic. - Barron's",
+          "source": "Barron's",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONTN6WVZPSEd2bVBITEc3MlhWb25Nal8zQVgtaExYMjBFWndmcHZqVHo5R0JDZTNsWUo0VGNNNzNfYkduSWJuRHp4QVVvMzBBVDNUbU5QRG5VazdWcHNfU1NqR21yS0JCR3lyOEZSZlVKT1VENG9CR1JfdDhaOWh5dWkyenIxUVU?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 21:39:00 GMT",
+          "sentiment": "neutral",
+          "eventType": "competencia",
+          "duration": "medium",
+          "confidence": 0.45,
+          "relevance": 0.69,
+          "novelty": 0.714,
+          "entityMatched": true,
+          "impactWeight": 0.0,
+          "id": "5371fab107281b89d96e",
+          "firstSeenAt": "2026-11-11T01:59:58+00:00"
+        },
+        {
           "title": "Microsoft stock falls as Anthropic takes aim at Excel and workplace software - Yahoo Finance",
           "source": "Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRDhIR2N3YWVsRk1wWTZtRmNTTFVwRDdxb1hUVmtqQ3NfTXRRaGJXa211U240YjNxa1hzRUJ0bjJ4RnI0cFlVM3VleXV4XzlqTVp1V0dzQUFtQTR0R09IQzBSeGZzR3RJaHZPS1BMbGpBeWRaM3JkU2o1OF9jQ1ZPV1B2WmxfQU05ZDh2bXVLR0N6YlFza21nOHlVaER1ek4xSTBN?oc=5",
@@ -396,31 +412,15 @@
           "impactWeight": 0.0,
           "id": "f4dcf3f51d3c79601336",
           "firstSeenAt": "2026-11-11T01:29:40+00:00"
-        },
-        {
-          "title": "Microsoft Stock Drops After Anthropic Unveils Tools to Rival Office - Business Insider",
-          "source": "Business Insider",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbHd5MXVLSkpPZE5NSkxLMWNLSERBN05CSWZNMkpWTUE1bEM4TmMtWmppQXliU3VFbnB6S2dwaFczVlpWSl9IYTBONmJLY09hM0ZFSzAzQXduZUpKby14WXlzNTh3VS1JWkFmYUNMOWdYd0NLaGhIYmloQ1lfOVZHY2FYQzE4N2JKT2t1THNJMzFFc3pRd1pYZUJCOA?oc=5",
-          "publishedAt": "Tue, 10 Nov 2026 19:13:00 GMT",
-          "sentiment": "neutral",
-          "eventType": "mercado",
-          "duration": "temporary",
-          "confidence": 0.45,
-          "relevance": 0.69,
-          "novelty": 0.688,
-          "entityMatched": true,
-          "impactWeight": 0.0,
-          "id": "295adc0c8716a04bd545",
-          "firstSeenAt": "2026-11-10T21:45:56+00:00"
         }
       ]
     },
     "NVDA": {
       "ticker": "NVDA",
-      "newsScore": 45.6,
+      "newsScore": 46.1,
       "signal": "neutral",
       "urgency": "high",
-      "signalStrength": 8.8,
+      "signalStrength": 7.9,
       "items": [
         {
           "title": "Nvidia stock drops 6%, extending decline on report alleged Chinese spy linked to Nvidia CEO aided $7.5 billion in China chip shipments - Yahoo Finance",
@@ -503,6 +503,22 @@
           "firstSeenAt": "2026-11-09T05:59:56+00:00"
         },
         {
+          "title": "Nvidia Stock (NVDA) Stays Under Pressure amid CEO Probe; Wells Fargo Lowers Price Target Ahead of Q3 Earnings - TipRanks",
+          "source": "TipRanks",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZE0zNlNRdmVGaDVleUlNQWJOT2xLM1FJZU5VUjdxNkZadjdnTGZ5UUVkM2pNbFg0WjVmTmwwLWVUUnNkRXhtLXluMUdacmpTbVJSWnFaM0RVMzB6SlR5RjYtNmJFZUZSaXpva3JiY29MSXpvOTczdlpVZF9sUEp3dmFHc2gxalI1VU5NNlVRVDdzbnFHQkROaXdBc2kyZ0hVSGY3RGxya1RQMkdZNGYtcUtOWmhqVjhxa2N1cUlPRXJDZUhOOG1TVHZoN3JBaVR1b3c?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 21:45:09 GMT",
+          "sentiment": "negative",
+          "eventType": "regulación",
+          "duration": "structural",
+          "confidence": 0.58,
+          "relevance": 0.85,
+          "novelty": 0.708,
+          "entityMatched": true,
+          "impactWeight": -0.3492,
+          "id": "8127a09273e1ca28c122",
+          "firstSeenAt": "2026-11-11T01:59:58+00:00"
+        },
+        {
           "title": "Chip stocks' slide nears $5 trillion as Nvidia hits most extreme selling level since 2019 - Yahoo Finance",
           "source": "Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNeGhUMWhtSk5Kdm9GOHhVaFlETXR3clBfSEI0VnRtTHNtWEFNWkIxelY4R2NyUjQzMjg5SF9JZ0xOZldPSGR3WlBhejJjNTdmM21HdFQzaGpwMEFrVGxMMFB1RHQ0MkVvOUtCeklOMFJmemRmUDRIRS1sS2VheW5UUDc4anhmQU5ZUV9HY09lTEpUWmFfLWZOOXhUcVZFeTRVQXZVeGE0TzhxdVVnaDRPTzdVWXY2TmQ1UEgyNGJHMFhFS241ZkJGa1o2NHphdmdSV0xCRjh0Q0k0MHdF?oc=5",
@@ -517,22 +533,6 @@
           "impactWeight": 0.0,
           "id": "c0e117cb9cd927d9e691",
           "firstSeenAt": "2026-11-10T21:45:56+00:00"
-        },
-        {
-          "title": "Nvidia Stock (NVDA) Falls on Probe into CEO’s Affair; Here’s Why Baird Stays Bullish - TipRanks",
-          "source": "TipRanks",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWUFVU2lWYVlHMUFDTVF5aEtzTlh3clZ6ZEwtNzVKSU4yQ3JzRlIzZmVoUk5IdnBNaVJpVlQxUHlKcXotTnhycjV4Rm55TmV0RXNTcF85bnh4aXV1Z2thcUFTVThRV2kxX0VOWW9NbEx2NWM2MV85MUYtUDZRNWlzTF8tR2JtRjJ0SFZWV0hkWGo3elVHUWdZaHZucDhabnVvbFdfOUNFV0s4dlpfdWc?oc=5",
-          "publishedAt": "Mon, 09 Nov 2026 19:53:19 GMT",
-          "sentiment": "negative",
-          "eventType": "regulación",
-          "duration": "structural",
-          "confidence": 0.58,
-          "relevance": 0.85,
-          "novelty": 0.897,
-          "entityMatched": true,
-          "impactWeight": -0.442,
-          "id": "28cf82546457065efe7b",
-          "firstSeenAt": "2026-11-11T01:29:40+00:00"
         },
         {
           "title": "Nvidia is worth nearly 30% less if Jensen Huang is no longer CEO: tech analyst - Yahoo Finance",
@@ -697,6 +697,22 @@
       "signalStrength": 3.7,
       "items": [
         {
+          "title": "Alphabet Inc. (GOOG) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+          "source": "Yahoo! Finance Canada",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1jeVJwZF93cGNFbUJ0QWJOUHJQeFAyc3BiRFpLbWJPdUdwc0RBQURzeDJDRlZXOEhGclUzTV9RM21kdVdENTYyd2hPS3VXZWtPa3c?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 15:35:47 GMT",
+          "sentiment": "neutral",
+          "eventType": "mercado",
+          "duration": "temporary",
+          "confidence": 0.45,
+          "relevance": 0.69,
+          "novelty": 1,
+          "entityMatched": true,
+          "impactWeight": 0.0,
+          "id": "07a67c24a2590b2f036a",
+          "firstSeenAt": "2026-11-11T01:59:58+00:00"
+        },
+        {
           "title": "Alphabet shares appear to have bottomed. How to play it for a quick rebound - CNBC",
           "source": "CNBC",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVEdUUHd6WEdOZFlVRm5COXRVN0hLSXVyLXdzVTVhMjlibmdqMXJPRlp3WWJHc3NaWDlmcWRrUmJwNmJuNzFJLUt3Vm5PUXYxczM3bE9Calh5SXJRVk5JcGZTQVJZMXNsM1hOeVBHclFwQnM3U3JRS1NlaHZKWUNEaTd0Xzg2eVlYbW9NR3VwRnA0cElsNkJ6SS1PUUVZcnZINEdmbFZaZjJzLUN3R2ZrTw?oc=5",
@@ -706,27 +722,11 @@
           "duration": "temporary",
           "confidence": 0.45,
           "relevance": 0.69,
-          "novelty": 1,
+          "novelty": 0.952,
           "entityMatched": true,
           "impactWeight": 0.0,
           "id": "1893d2abf616120e81db",
           "firstSeenAt": "2026-11-10T21:45:56+00:00"
-        },
-        {
-          "title": "Can Alphabet Stock Rise 30% From Here? - Yahoo Finance",
-          "source": "Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMnZ4RE0yTDJYRUZaMlppa3VGV0E5c1ZSN1h0cm1BZVFPdTkyWUVqYTZnd2ladURPLTRKV3pwRzNmVjdYTUhCeWNqVzhSaGZhM0dTMnNmekd5OXozcl9sOTBtd2xycFRCYWlXYmh4Skl1X2xpQWViWi16RExNYnowZXB6WEJQZHZvRXFYdXdKdUQ?oc=5",
-          "publishedAt": "Tue, 10 Nov 2026 13:05:31 GMT",
-          "sentiment": "neutral",
-          "eventType": "mercado",
-          "duration": "temporary",
-          "confidence": 0.45,
-          "relevance": 0.69,
-          "novelty": 0.944,
-          "entityMatched": true,
-          "impactWeight": 0.0,
-          "id": "d75e75282172227ad22c",
-          "firstSeenAt": "2026-11-10T15:47:22+00:00"
         },
         {
           "title": "Nvidia, Alphabet, and Micron Just Agreed to Buy $26 Billion of Stock in One of Their Biggest Customers - The Motley Fool",
@@ -738,27 +738,27 @@
           "duration": "temporary",
           "confidence": 0.45,
           "relevance": 0.69,
-          "novelty": 0.909,
+          "novelty": 0.92,
           "entityMatched": true,
           "impactWeight": 0.0,
           "id": "f044a722673df73208d9",
           "firstSeenAt": "2026-11-10T15:47:22+00:00"
         },
         {
-          "title": "What's Going on With Alphabet Stock on Tuesday? - TradingView",
-          "source": "TradingView",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUFhfSk8tMzBac0w0bG8ySjhKV0pGWmRwdlZVRFNENUtwSFgwcmd0X0JVNTR2a0tueDNlQ2tFbmUwbkxkaFVJcmFtclc5SWk3RWVFY1JjdHFtbnZIUFJ5d2ZWSVludXBCYVlOeXJLMGNqaFl6Z05PRERGMHpwQk1hYWxPSlZBcHI0WWxrRW9MSl9od1NNOVhwb0xobXdrcV9NNGdTMUxZZ2w?oc=5",
+          "title": "What's Going on With Alphabet Stock on Tuesday? - Benzinga",
+          "source": "Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeWNyYXFOZlF0WkN3dFhPUkxBMU9FQnZudVBlVUNkQWFFZER6OUNMVzFIUlBTVFF3b3RtbHRZMlppWEROVlhwMHVrck1vNGN6NHV2cXYzU3NHT2o0M0U5Sk5pNHUxTEVjTkFWQVFKSVFhRGZrUllEMGd3NVFneWVNN3ZlV09WaHRUZ05TQmlTTFB3bHkwOGtLNlBfNWcwQXM?oc=5",
           "publishedAt": "Tue, 10 Nov 2026 17:56:26 GMT",
           "sentiment": "neutral",
           "eventType": "mercado",
           "duration": "temporary",
           "confidence": 0.45,
           "relevance": 0.69,
-          "novelty": 0.846,
+          "novelty": 0.875,
           "entityMatched": true,
           "impactWeight": 0.0,
-          "id": "052a7dc8b4c2ed42e54f",
-          "firstSeenAt": "2026-11-10T21:45:56+00:00"
+          "id": "394d6e47db0fd499118f",
+          "firstSeenAt": "2026-11-11T01:59:58+00:00"
         },
         {
           "title": "Alphabet Stock: Buy Under $300 (NASDAQ:GOOGL) - Seeking Alpha",
@@ -802,27 +802,27 @@
           "duration": "temporary",
           "confidence": 0.45,
           "relevance": 0.69,
-          "novelty": 0.769,
+          "novelty": 0.846,
           "entityMatched": true,
           "impactWeight": 0.0,
           "id": "a940bc80e1710951e926",
           "firstSeenAt": "2026-11-10T04:11:12+00:00"
         },
         {
-          "title": "Ahead of Earnings, Is Alphabet Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
-          "source": "Morningstar",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOR0pwSzdVaGNDeWswQ3cxeWh4MncyN2RlanBUWFRIdnFraU9zVEQ5YkNic0hBTVlrX1FlYUZmZzczV0wxeEljMll4OW9mSUlmUWpjUDhaMWEtZVdLcjVscG43VTU4ZG1UdE1URjZleVZISERncVA2NnNNekd6c0dRbThuNHRnUFViRDVNNm9JMWd1Sk1YYkUtazcyNXJtaFhtVFJaU0NtVQ?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
+          "title": "Can Alphabet Stock Rise 30% From Here? - Yahoo Finance",
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMnZ4RE0yTDJYRUZaMlppa3VGV0E5c1ZSN1h0cm1BZVFPdTkyWUVqYTZnd2ladURPLTRKV3pwRzNmVjdYTUhCeWNqVzhSaGZhM0dTMnNmekd5OXozcl9sOTBtd2xycFRCYWlXYmh4Skl1X2xpQWViWi16RExNYnowZXB6WEJQZHZvRXFYdXdKdUQ?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 13:05:31 GMT",
           "sentiment": "neutral",
-          "eventType": "resultados",
-          "duration": "medium",
+          "eventType": "mercado",
+          "duration": "temporary",
           "confidence": 0.45,
           "relevance": 0.69,
-          "novelty": 0.8,
+          "novelty": 0.733,
           "entityMatched": true,
           "impactWeight": 0.0,
-          "id": "ae283dddd3a4dcb43c61",
-          "firstSeenAt": "2026-11-11T01:29:40+00:00"
+          "id": "d75e75282172227ad22c",
+          "firstSeenAt": "2026-11-10T15:47:22+00:00"
         }
       ]
     },
@@ -1430,22 +1430,6 @@
           "firstSeenAt": "2026-11-10T21:45:56+00:00"
         },
         {
-          "title": "Goldman Sachs, Citi, Santander, Deutsche commit ~$270M in funding toward stablecoin venture - report (GS:NYSE) - Seeking Alpha",
-          "source": "Seeking Alpha",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNR0YzNFJ3d2JOZERta0lpdHdPNURwNlI4aWMyMHZlOF8wVW42TlpRMzROaTR6aWVIcDFzdXRHUVdETUlqSnZQUzRzYTA5ci1JZjFSRDNxSVpGQi0tNnMzc09WVEsxTER3OG93TXpTZmVkRUFCZHBzdEZNOG1BRFY0eFp5eHFwR0xDYmVmZUxaeWhKUzYxQVY0UW9oeF9wSnpQbGczY0Nua01LcjloYThtanRyNmtTZTczeEp2OFJIc2FtNzllcHgyQlNPYTZyQQ?oc=5",
-          "publishedAt": "Tue, 10 Nov 2026 17:33:00 GMT",
-          "sentiment": "neutral",
-          "eventType": "mercado",
-          "duration": "temporary",
-          "confidence": 0.45,
-          "relevance": 0.85,
-          "novelty": 0.917,
-          "entityMatched": true,
-          "impactWeight": 0.0,
-          "id": "cc0de55bd52c0b291f47",
-          "firstSeenAt": "2026-11-11T01:29:40+00:00"
-        },
-        {
           "title": "Forget tech and hide out in these stocks instead, Goldman Sachs says - CNBC",
           "source": "CNBC",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWGVLNzNaLVZTNFp0cDJ0MWZjX24xMHJhUjhRa2hjeGd5V3ZRc3FfbWJXa0lQU0txajlYdjREUFBlT2ZmQ25UbDJnQW9qTl9FRldKZUw5TE5oc3lQVy1DbzV0TVFvRUpmTThzOTNaYkRvWHlhMWJ6cTJkVWZiS1puNVNlMTF4NGg0ZTE3djFXdzlINTd0aE1Qc0h0T185T3NOXzduZ0xFSQ?oc=5",
@@ -1462,6 +1446,22 @@
           "firstSeenAt": "2026-11-07T23:01:38+00:00"
         },
         {
+          "title": "Anthropic could hit $685B in revenue by 2030, Goldman Sachs says: report (ANT:Pending) - Seeking Alpha",
+          "source": "Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYUx2MGpYbEtpc3lkaTc1cE50cG1nOVJqX0JUNEVVVmdXRlIwd1hHcFpSZWNucHFkVlpqaHFqSTUyUkZoT0JSdXpTQi1JaldmS25ORDFhNV9uZ3JaWEpiNnlNNjBuMnR5Sl80U3NZeEVibkZ5cURYYlBpQTlOOG5oVmx3UlJHc3ltNG4xMm1EUTZyY2ktMVAyTjEtV2NmOE5CaTR1QnRMclRMYWc?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 15:27:00 GMT",
+          "sentiment": "neutral",
+          "eventType": "resultados",
+          "duration": "medium",
+          "confidence": 0.45,
+          "relevance": 0.85,
+          "novelty": 0.87,
+          "entityMatched": true,
+          "impactWeight": 0.0,
+          "id": "615aa17bb0d6827a25b7",
+          "firstSeenAt": "2026-11-11T01:59:58+00:00"
+        },
+        {
           "title": "Goldman Sachs expects Anthropic revenue to exceed $600bn by 2030 - Financial Times",
           "source": "Financial Times",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc0tWeGNDOUh5S1RleHBrVDlUdGNiRjktVDZGbmtRNlBUcXkwbDRfNXBuSXZ4Yk1NNVBOUTZXNDRlc09LdDI0VlpKMlFRMUVCaVh6VndVSWlwT2NkNElsc1JxUDVZUWFYZ2pWY3NFTFNKQm9fZnk1YkNTZWV6dnFVc2s0T2o?oc=5",
@@ -1471,7 +1471,7 @@
           "duration": "medium",
           "confidence": 0.45,
           "relevance": 0.85,
-          "novelty": 0.895,
+          "novelty": 0.737,
           "entityMatched": true,
           "impactWeight": 0.0,
           "id": "c64de4a286b00e964ce1",
@@ -1487,7 +1487,7 @@
           "duration": "structural",
           "confidence": 0.45,
           "relevance": 0.85,
-          "novelty": 0.714,
+          "novelty": 0.9,
           "entityMatched": true,
           "impactWeight": 0.0,
           "id": "7b77c10496401a818d32",
@@ -1841,22 +1841,6 @@
           "firstSeenAt": "2026-11-10T21:45:56+00:00"
         },
         {
-          "title": "Hims & Hers Celebrated Its Eli Lilly Deal, Then Lost a Quarter of Its Value in a Week - 24/7 Wall St.",
-          "source": "24/7 Wall St.",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSVpDY0FUOFgzQ1R1RGN1aVpHVEpaSUZjU1FOaTFKam1vMHhJc2RPSnBkbUE5Uy1ORGQxRUtTMDBmUVl2X21YUUtvZTRRZWhrU0lPemd6cXQzNHpWLWFHeWQtNXZJUG42Vm1rdlZvbHZJUURjYUR3R1Rlanh2MWJ3S285dnY4MTl4ejNzb0Y0a21hVnNlemkwMG53ZWV6NlhnN2xNaTByaW56T2FwUHNwb2E0VnpwMl8wdDNCZjdFMFRJbEpwaUJ2ZVNB?oc=5",
-          "publishedAt": "Tue, 10 Nov 2026 18:03:00 GMT",
-          "sentiment": "neutral",
-          "eventType": "resultados",
-          "duration": "medium",
-          "confidence": 0.45,
-          "relevance": 0.85,
-          "novelty": 0.875,
-          "entityMatched": true,
-          "impactWeight": 0.0,
-          "id": "fbe0c1b3c2696657c008",
-          "firstSeenAt": "2026-11-10T21:45:56+00:00"
-        },
-        {
           "title": "Eli Lilly Stock: Is Wall Street Bullish or Bearish? - Barchart.com",
           "source": "Barchart.com",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaUtvM1VqR05tMXU5WFp6MzczQmN2djNSN2NneUNsVzVmclhVRlpTbmFNRWNBRmhhREZqQVozaHZUMzdpelVXZVZYaEJabDQzaHF6QktjdEwyaUJ2cnZ2emtCMlRJd2g0ejJGaDlZdVJ2STNETmtkUlZxN3pTaFdxaWxiVThrU1pnamlUNmhIamdRZnNQOUE3Sg?oc=5",
@@ -1871,6 +1855,22 @@
           "impactWeight": 0.0,
           "id": "383157117363793f3730",
           "firstSeenAt": "2026-11-06T17:23:09+00:00"
+        },
+        {
+          "title": "Hims & Hers Celebrated Its Eli Lilly Deal, Then Lost a Quarter of Its Value in a Week - 24/7 Wall St.",
+          "source": "24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSVpDY0FUOFgzQ1R1RGN1aVpHVEpaSUZjU1FOaTFKam1vMHhJc2RPSnBkbUE5Uy1ORGQxRUtTMDBmUVl2X21YUUtvZTRRZWhrU0lPemd6cXQzNHpWLWFHeWQtNXZJUG42Vm1rdlZvbHZJUURjYUR3R1Rlanh2MWJ3S285dnY4MTl4ejNzb0Y0a21hVnNlemkwMG53ZWV6NlhnN2xNaTByaW56T2FwUHNwb2E0VnpwMl8wdDNCZjdFMFRJbEpwaUJ2ZVNB?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 18:03:00 GMT",
+          "sentiment": "neutral",
+          "eventType": "resultados",
+          "duration": "medium",
+          "confidence": 0.45,
+          "relevance": 0.85,
+          "novelty": 0.842,
+          "entityMatched": true,
+          "impactWeight": 0.0,
+          "id": "fbe0c1b3c2696657c008",
+          "firstSeenAt": "2026-11-10T21:45:56+00:00"
         },
         {
           "title": "Eli Lilly Stocks Rise 3.40% as Jefferies Sets Street-High $1,700 Target - Yahoo Finance",
@@ -2147,20 +2147,20 @@
           "firstSeenAt": "2026-11-11T01:29:40+00:00"
         },
         {
-          "title": "ExxonMobil (XOM) Signs MoU with Venezuela's PDVSA to Explore Ups - GuruFocus",
-          "source": "GuruFocus",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOd1ExbXZmc0pHTHZDeXp4WUNjYzNiNk9yYnBOWU9qZGRTVkpZVnM2ZGJRNGI0bHowNW9kYWYwVXdXOXAwbFJJZ3dVblB1bEhtWWU4R3lXVEtBUzF5aC1RbHg5ajQtcmJEbzN1emJ6b2ZHbXdUMTFfNm4tM3FFdFRRRGhfSUsta2gxQnR1RE9VdWlNZlplUXdMUklna3BsNnJISTJ2MWhKR1FEYkJlR2VyNGNxa3U?oc=5",
-          "publishedAt": "Tue, 10 Nov 2026 02:10:25 GMT",
+          "title": "Balance sheet - ExxonMobil",
+          "source": "ExxonMobil",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9semJfczlYdl8xUThiYTE2YzFBTVd5V1BydmVLeGY4ajFza3Frb1F3RW5GMjJaNnNKcHVzV25ld3UxeFNueDhoektkTF9WVm1vTm1pLUNxdzJDMXd3OHFpblE3Vlk?oc=5",
+          "publishedAt": "Mon, 02 Nov 2026 08:00:00 GMT",
           "sentiment": "neutral",
           "eventType": "mercado",
           "duration": "temporary",
           "confidence": 0.45,
-          "relevance": 0.69,
-          "novelty": 0.778,
-          "entityMatched": true,
+          "relevance": 0.35,
+          "novelty": 0.923,
+          "entityMatched": false,
           "impactWeight": 0.0,
-          "id": "73c5e3a5a17e4efb147f",
-          "firstSeenAt": "2026-11-10T04:11:12+00:00"
+          "id": "e7cf7af5cb7077444be9",
+          "firstSeenAt": "2026-11-11T01:59:58+00:00"
         },
         {
           "title": "Exxon (XOM) Reports Q3 Earnings: What Key Metrics Have to Say - Yahoo Finance",
@@ -2335,27 +2335,11 @@
     },
     "WMT": {
       "ticker": "WMT",
-      "newsScore": 51.8,
+      "newsScore": 51.9,
       "signal": "neutral",
       "urgency": "high",
-      "signalStrength": 3.6,
+      "signalStrength": 3.8,
       "items": [
-        {
-          "title": "WMT Stock Quote Price and Forecast - CNN",
-          "source": "CNN",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9NemgtNE5ubzhjTGxSbnpGcTdPSzBWdS1rSmZOMWZCYl9HTmc3ZjhYbkYtbmQtWGpBRElyNjNTM2dGeXNsTnprNmY3QVJkd3c?oc=5",
-          "publishedAt": "Mon, 09 Nov 2026 17:11:15 GMT",
-          "sentiment": "neutral",
-          "eventType": "mercado",
-          "duration": "temporary",
-          "confidence": 0.45,
-          "relevance": 0.69,
-          "novelty": 1,
-          "entityMatched": true,
-          "impactWeight": 0.0,
-          "id": "5e4d731b73e218213284",
-          "firstSeenAt": "2026-11-10T21:45:56+00:00"
-        },
         {
           "title": "Walmart Upgraded Ahead Of Earnings; These Retail Stocks Are Breakout Ready - Investor's Business Daily",
           "source": "Investor's Business Daily",
@@ -2366,7 +2350,7 @@
           "duration": "medium",
           "confidence": 0.45,
           "relevance": 0.69,
-          "novelty": 1.0,
+          "novelty": 1,
           "entityMatched": true,
           "impactWeight": 0.0,
           "id": "82379e94ef19b18ec722",
@@ -2382,7 +2366,7 @@
           "duration": "temporary",
           "confidence": 0.45,
           "relevance": 0.85,
-          "novelty": 0.882,
+          "novelty": 0.958,
           "entityMatched": true,
           "impactWeight": 0.0,
           "id": "7428855e2d2b4c7f86e8",
@@ -2430,9 +2414,9 @@
           "duration": "temporary",
           "confidence": 0.58,
           "relevance": 0.69,
-          "novelty": 0.867,
+          "novelty": 0.9,
           "entityMatched": true,
-          "impactWeight": 0.3468,
+          "impactWeight": 0.3602,
           "id": "2770a005c8fec8c16b5d",
           "firstSeenAt": "2026-11-10T21:45:56+00:00"
         },
@@ -2462,11 +2446,27 @@
           "duration": "temporary",
           "confidence": 0.45,
           "relevance": 0.69,
-          "novelty": 0.95,
+          "novelty": 0.957,
           "entityMatched": true,
           "impactWeight": 0.0,
           "id": "173a8727d755f55e7d89",
           "firstSeenAt": "2026-11-11T01:29:40+00:00"
+        },
+        {
+          "title": "WMT Maintained by Mizuho -- Price Target Raised to $135 - GuruFocus",
+          "source": "GuruFocus",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTHlnVGVWdWc4bF9sa1pPdV9Rek9VVEdRemliVUFzMllIN184VThiSXpUUW1kdklGTVFsTkJOVk1tMnE0MnZtV0tpMTF1U3FIQnFlcG95Vk5sVTRobXFGblBOandUZzVMOE9PUm9XYmkzUUd6UUlZODU2RE94TjRfQTlQZnE0QndrWHR2VlZPeXdCM1ZY?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 18:56:51 GMT",
+          "sentiment": "neutral",
+          "eventType": "mercado",
+          "duration": "temporary",
+          "confidence": 0.45,
+          "relevance": 0.69,
+          "novelty": 0.875,
+          "entityMatched": true,
+          "impactWeight": 0.0,
+          "id": "10c87c89104421dd59fe",
+          "firstSeenAt": "2026-11-11T01:59:58+00:00"
         }
       ]
     },
@@ -2508,6 +2508,22 @@
           "impactWeight": 0.0,
           "id": "51f2cdb9e1279e08a4ed",
           "firstSeenAt": "2026-11-10T00:08:00+00:00"
+        },
+        {
+          "title": "Costco Wholesale Stock Is Trading Over $1,000. Here's Why a Stock Split Still May Not Come in 2027. - The Motley Fool",
+          "source": "The Motley Fool",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTXREUHFXa21EQXYwT3I0VFNEWlhlWWdlMWYxLTZuT2dkNkZNRjBSQ0J2LV9aVnhyWk94RGNVRGQwaWN4S1k4aERNbmROckpoNS1CSUdQSER4MzZVRzIwYURwcDlIUTBhaEROZ0RzMVBQUGw1bHc1VWhXRGktR0t0bTVBemM3eFlBWnZuSTBqQmlJeEZDamJR?oc=5",
+          "publishedAt": "Mon, 02 Nov 2026 20:19:00 GMT",
+          "sentiment": "neutral",
+          "eventType": "mercado",
+          "duration": "temporary",
+          "confidence": 0.45,
+          "relevance": 0.85,
+          "novelty": 0.87,
+          "entityMatched": true,
+          "impactWeight": 0.0,
+          "id": "5d5f325506ca0c188383",
+          "firstSeenAt": "2026-11-11T01:59:58+00:00"
         },
         {
           "title": "Costco Goes Bulk on Payouts with $30 Special Dividend - Benzinga",
@@ -2588,22 +2604,6 @@
           "impactWeight": -0.3802,
           "id": "3b702d062b3a4a16fb80",
           "firstSeenAt": "2026-11-10T00:08:00+00:00"
-        },
-        {
-          "title": "Scotiabank raises Trade Desk stock price target on cost cuts - Investing.com",
-          "source": "Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNmdsbWRMU1RCNjVXVUY1YlBXc0ZFODNkMGtUYlBMb21PQUo5NEZCUklSbWV6M1QxX0xmeXlNeWlrajVJMENtaFppa3JqVGxsbVVqTkZCYzlqWG9QdnZISF9US2o0d0FhSW5JWWtPbnQxcTBKaDRUZS1XaUNOSk1WakJMMVNBd2M5TGY2bmRGY0FZU3AwRXVCX0QzUmxCXzJQRnJ6UEVoT2d3UkZhQ1J4TjR5MkNlY3J4WVVHWg?oc=5",
-          "publishedAt": "Tue, 10 Nov 2026 13:06:41 GMT",
-          "sentiment": "neutral",
-          "eventType": "regulación",
-          "duration": "structural",
-          "confidence": 0.45,
-          "relevance": 0.69,
-          "novelty": 0.824,
-          "entityMatched": true,
-          "impactWeight": 0.0,
-          "id": "6b3eae6efe3291b0fce0",
-          "firstSeenAt": "2026-11-10T15:47:22+00:00"
         }
       ]
     },
@@ -3536,7 +3536,7 @@
           "title": "Advanced Micro Devices, Inc. (AMD) Stock Price, News, Quote & History - Yahoo! Finance Canada",
           "source": "Yahoo! Finance Canada",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBpN0UzZUJHblJ0QnhpWG5oU0tNSVRTVHctNS1mR1Uyc0dydFZxS2d6dkZzRmdsQ0tEZGIwQnJ4V3FndXU0Y3daMXNET0hON1U0?oc=5",
-          "publishedAt": "Tue, 10 Nov 2026 00:29:38 GMT",
+          "publishedAt": "Sun, 08 Nov 2026 23:41:12 GMT",
           "sentiment": "neutral",
           "eventType": "mercado",
           "duration": "temporary",
@@ -3705,10 +3705,10 @@
     },
     "ORCL": {
       "ticker": "ORCL",
-      "newsScore": 50.0,
+      "newsScore": 48.0,
       "signal": "neutral",
-      "urgency": "low",
-      "signalStrength": 0.0,
+      "urgency": "high",
+      "signalStrength": 4.0,
       "items": [
         {
           "title": "Oracle Just Walked Away From a $7 Billion Tencent Deal. Here’s What It Means for ORCL Stock. - Yahoo Finance",
@@ -3823,20 +3823,20 @@
           "firstSeenAt": "2026-11-10T15:47:22+00:00"
         },
         {
-          "title": "Oracle Stock Hovers Around the Flatline: What's Going On? - Benzinga",
-          "source": "Benzinga",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSF9ONjNRNUU4MFZ3NVNNTXl2cUlFZlpMRUtJSFFkdEFqMFVpY3NMdnlDMVRFYjI0RkJRc21XQlJLMFRMS0laNFpLN2xDNlNOVFpyODhKVkNwWEtkY2ZrcDY4a0VyX2ZBZWFUdG5GMTlHTVB1QXlnLWE5UHhUaFEwd1dyMWZMc1VRbXB6T1IwRnY3dkoyS21jX2NkSFA4RzljblBhUlZ4dG9rRVNUcU1RU0dsbWRvQQ?oc=5",
-          "publishedAt": "Tue, 10 Nov 2026 15:24:03 GMT",
-          "sentiment": "neutral",
+          "title": "Oracle: The 28% AI Return Leaves Too Little Margin Of Safety (Rating Downgrade) (ORCL) - Seeking Alpha",
+          "source": "Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQXRhZ08wdFUxbUgtRXE2TEctaTFlMnlLV3QzaTB6eHNKVzlPS0NjcGhaYkhsVGVoTUJDTXB1M3JGTzM2UVlDNjBxdEhYRFBZMlZWSndvdWY2R3R0NEZZb05EVk83Zno2WnhsODhmcXFJcVN2SHhmT0V6LTFOdkY0VVVpNkpKTHV1b0hkd1NNS1hIMHNMd0pmb0lpYU5HVEIyR2ZGelBWdFJpcG9PaEhuSHJKWDJLT1ZfTTlDRw?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 18:12:00 GMT",
+          "sentiment": "negative",
           "eventType": "mercado",
           "duration": "temporary",
-          "confidence": 0.45,
-          "relevance": 0.69,
-          "novelty": 0.812,
+          "confidence": 0.58,
+          "relevance": 0.85,
+          "novelty": 0.773,
           "entityMatched": true,
-          "impactWeight": 0.0,
-          "id": "f59110be031cbdccabfa",
-          "firstSeenAt": "2026-11-10T15:47:22+00:00"
+          "impactWeight": -0.381,
+          "id": "199325611e06b48385e3",
+          "firstSeenAt": "2026-11-11T01:59:58+00:00"
         }
       ]
     },
@@ -3979,10 +3979,10 @@
     },
     "ADBE": {
       "ticker": "ADBE",
-      "newsScore": 50.0,
+      "newsScore": 51.9,
       "signal": "neutral",
-      "urgency": "low",
-      "signalStrength": 0.0,
+      "urgency": "high",
+      "signalStrength": 3.7,
       "items": [
         {
           "title": "Adobe Inc. (ADBE) Stock Price, News, Quote & History - Yahoo! Finance Canada",
@@ -4031,22 +4031,6 @@
           "impactWeight": 0.0,
           "id": "2ebd11f1ee1bf15f25fe",
           "firstSeenAt": "2026-11-11T01:29:40+00:00"
-        },
-        {
-          "title": "Accenture vs. Adobe: What Does Fluctuating vs. Steady Revenue Tell Investors? - The Motley Fool",
-          "source": "The Motley Fool",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSkljcUc5S2gxemo3cW9sb3NQalctR1dXVEJYX2ZSVGkteDU3d0xaY0QyX2hKRGZKNVpNV2VXSG5jcm5nNi1KX3N2dzdxVFVXMjF4SHFqWU4xTVhwYUpHQzZ2OVNlLW9qN19MREw0VlNwenNTX3lRQW51SndTWk1CaEZNaUhXZi00eGpjNmZYT3RFdXRuUkZlTU1NajFaM0FzZFhxb1l0WmF1T2lNREI0NGYzeEtZOVlYSU1mNFdaTQ?oc=5",
-          "publishedAt": "Tue, 10 Nov 2026 19:46:00 GMT",
-          "sentiment": "neutral",
-          "eventType": "resultados",
-          "duration": "medium",
-          "confidence": 0.45,
-          "relevance": 0.69,
-          "novelty": 0.955,
-          "entityMatched": true,
-          "impactWeight": 0.0,
-          "id": "278bc2efc191588d00f8",
-          "firstSeenAt": "2026-11-10T21:45:56+00:00"
         },
         {
           "title": "Adobe goes all in on agents to help creators automate workflows - Seeking Alpha",
@@ -4111,6 +4095,22 @@
           "impactWeight": 0.0,
           "id": "aa94cfe9c7b855ff556a",
           "firstSeenAt": "2026-11-11T01:29:40+00:00"
+        },
+        {
+          "title": "Adobe and Google Deepen Partnership to Bring Leading AI Models and... - Quantisnow",
+          "source": "Quantisnow",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQT3NCU1ZsX3NsTDNSeGJFY25xSV8wM3JkRjVvREk1QUxxQmdIQi1FaWRzcjlqTkFEajM3Ty00ZWItT0lYUC1TWVdOTXp4S1dFZkZCeWdpaXFGR2lLTDRTejdfekk1ZlY0cnBFQVgtNm11RFhvTFVxU1d4SEEwRVVBWFlPOEFIYjVDOE5SNlBLRWxVdGdsUTJncTF3bE1IVGlzTmxobEFBRF8?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 14:06:14 GMT",
+          "sentiment": "positive",
+          "eventType": "estratégico",
+          "duration": "medium",
+          "confidence": 0.58,
+          "relevance": 0.69,
+          "novelty": 0.889,
+          "entityMatched": true,
+          "impactWeight": 0.3557,
+          "id": "26f1e22aa577873f3230",
+          "firstSeenAt": "2026-11-11T01:59:58+00:00"
         }
       ]
     },
@@ -4390,10 +4390,10 @@
     },
     "SPY": {
       "ticker": "SPY",
-      "newsScore": 46.5,
+      "newsScore": 45.0,
       "signal": "neutral",
       "urgency": "high",
-      "signalStrength": 6.9,
+      "signalStrength": 10.1,
       "items": [
         {
           "title": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy - Financial Times",
@@ -4476,36 +4476,20 @@
           "firstSeenAt": "2026-11-10T21:45:56+00:00"
         },
         {
-          "title": "Nvidia Chief, Jensen Huang, Is Seen as Target of Chinese Spy Plot - The New York Times",
-          "source": "The New York Times",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2JibzE0S1NHWjdlS2lSWUJKTXVTNWYxRnVfS0ZDODhGcHdhRFBiamplX2lWSUlMRGZtdU12XzYxaUlRUGRzdmR4SU5saFJJZ3BrNUltdERoRWdoWlZuME9RMndwUi1jRmdRbzROenB0bG4wU0MtU1EtcnNyaU5lRDdz?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
-          "sentiment": "neutral",
-          "eventType": "mercado",
-          "duration": "temporary",
-          "confidence": 0.45,
-          "relevance": 0.69,
-          "novelty": 0.75,
-          "entityMatched": true,
-          "impactWeight": 0.0,
-          "id": "1aa5c6fdca9545c45245",
-          "firstSeenAt": "2026-11-11T01:29:40+00:00"
-        },
-        {
-          "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy - BBC",
+          "title": "Jensen Huang: Nvidia hires major US law firm to investigate alleged Chinese spy affair - BBC",
           "source": "BBC",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBLdVRudVhSejZlMXpvRlVhd1B0UlhUdmtmanU3NjNHNFhVVi1TUEMwVmpaZktkNG5XeV9CZ0ZOQ2duOEt2UlE5YWxSUkdwVU1acHBJTS13NndtS0U?oc=5",
-          "publishedAt": "Tue, 10 Nov 2026 21:22:36 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBa1J1TENBeUdudmN2cld5UzNqaHJXaU5obmVaVTdMbzFvS19tR1FzUmNoSHJ5VFVJM1RPZ3RsM29yVGxGM2c4UHJfUkNUTnJuTFBtXzF6WWE0Wmc?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 22:52:15 GMT",
           "sentiment": "neutral",
           "eventType": "mercado",
           "duration": "temporary",
           "confidence": 0.45,
           "relevance": 0.69,
-          "novelty": 0.7,
+          "novelty": 0.65,
           "entityMatched": true,
           "impactWeight": 0.0,
-          "id": "6824a1364d6cb74bce50",
-          "firstSeenAt": "2026-11-11T01:29:40+00:00"
+          "id": "5f319699c8a181ab12f8",
+          "firstSeenAt": "2026-11-11T01:59:58+00:00"
         },
         {
           "title": "Nvidia shares sink while stock market surges - NBC News",
@@ -4522,6 +4506,22 @@
           "impactWeight": 0.0,
           "id": "98bb0649df00ea9babe7",
           "firstSeenAt": "2026-11-10T00:08:00+00:00"
+        },
+        {
+          "title": "Jensen Huang’s net worth drops $6.5 billion as Nvidia stock slides in the fallout of spy affair scandal investigation - Fortune",
+          "source": "Fortune",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbk9hRXotckN0TndmSGZRS184RjVzMmdyc2pYZjd0cU5uMTQ3Rjc3UVBhSU9fcGxmWjNoUHVLNFJsMWJoMVVySjZqMWdtcDZvXzlFRGJDRzFCd3VPbmQxVFg3SV9vdGVSSi14NjJZbFY3VmNLOEcyQjZSdmp5U2xpc0h1VVRTYXY0VE1ydzg3VDVuWWV3NXkteWtDLUVSYzRDTXdxSGJMU05CeVFFTlhmX0FQSndRUGlaNmI0OWl5NFVSSFVIWTdDb2dzSmxfLWhMdEhv?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 15:40:00 GMT",
+          "sentiment": "negative",
+          "eventType": "mercado",
+          "duration": "temporary",
+          "confidence": 0.58,
+          "relevance": 0.69,
+          "novelty": 0.75,
+          "entityMatched": true,
+          "impactWeight": -0.3002,
+          "id": "c23cb1c5a6add1e5302a",
+          "firstSeenAt": "2026-11-11T01:59:58+00:00"
         }
       ]
     }
